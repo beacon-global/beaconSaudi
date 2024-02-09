@@ -3,19 +3,19 @@ const container2 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
   cardData: [
     {
-      img: "/container2/1.png",
+      img: "/Container2/1.png",
       cardHeading: "Global gateway to trade",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
     },
     {
-      img: "/container2/2.png",
+      img: "/Container2/2.png",
       cardHeading: "Global gateway to trade",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
     },
     {
-      img: "/container2/3.png",
+      img: "/Container2/3.png",
       cardHeading: "Global gateway to trade",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
@@ -28,19 +28,19 @@ const container3 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
   cardData: [
     {
-      img: "/container3/1.png",
+      img: "/Container3/1.png",
       cardHeading: "A Vibrant Society",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
     },
     {
-      img: "/container3/2.png",
+      img: "/Container3/2.png",
       cardHeading: "A Thriving Economy",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
     },
     {
-      img: "/container3/3.png",
+      img: "/Container3/3.png",
       cardHeading: "An Ambitious Nation",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
@@ -50,8 +50,8 @@ const container3 = {
 
 const container4 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
-  smImg: "/container4/2.png",
-  img: "/container4/1crop.png",
+  smImg: "/Container4/2.png",
+  img: "/Container4/1crop.png",
   btnText: "Contact Us",
   description:
     "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eu tristique sit congue. Pretium neque eu iaculis auctor ac neque pharetra lectus. Parturient ante nisi enim odio hac. Faucibus integer id malesuada eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. vivamus volutpat eu. Ultricies molestie consequat gravida pulvinar enim quam imperdiet nisl. Libero faucibus eu pretium egestas urna donec ante nunc nunc. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
@@ -62,25 +62,25 @@ const container5 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
   cardData: [
     {
-      img: "/container5/1.png",
+      img: "/Container5/1.png",
       cardHeading: "A Vibrant Society",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
     },
     {
-      img: "/container5/1.png",
+      img: "/Container5/1.png",
       cardHeading: "A Thriving Economy",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
     },
     {
-      img: "/container5/1.png",
+      img: "/Container5/1.png",
       cardHeading: "An Ambitious Nation",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
     },
     {
-      img: "/container5/1.png",
+      img: "/Container5/1.png",
       cardHeading: "An Ambitious Nation",
       description:
         "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
