@@ -1,0 +1,67 @@
+.dafualt {
+  --font-Gellix: "Gellix", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+
+.container {
+  padding: var(--containerPadding);
+  margin-top: var(--containerMarginTop);
+  position: relative;
+}
+
+.container img {
+  width: 80.15873015873017vw;
+  height: 33.06878306878307vw;
+}
+
+.contactContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+.contactContent p {
+  font-size: 1.3227513227513228vw;
+  line-height: 1.8518518518518516vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: var(--mobileContainerPadding);
+    margin-top: var(--mobileContainerMarginTop);
+    position: relative;
+  }
+
+  .container img{
+    height: 66.66666666666666vw;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .contactContent{
+    width: 87.2vw;
+    padding: 12vw 5.333333333333334vw;
+  }
+
+  .contactContent h2{
+    margin-bottom: 1.3333333333333335vw;
+  }
+
+  .contactContent p {
+    font-size: 3.733333333333334vw;
+    line-height: 5.226666666666667vw;
+    width: 100% !important;
+    padding-bottom: 4vw !important;
+  }
+}

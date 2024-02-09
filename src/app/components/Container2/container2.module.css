@@ -1,0 +1,77 @@
+.dafualt {
+  --font-Gellix: "Gellix", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+
+.container {
+  margin-top: 8.597883597883598vw;
+  padding: var(--containerPadding);
+  padding-right: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80.15873015873017vw;
+}
+
+.cards {
+  display: flex;
+  gap: 1.984126984126984vw;
+  overflow-x: scroll;
+}
+
+.cards::-webkit-scrollbar {
+  width: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f8;
+  width: 38.095238095238095vw;
+  position: relative;
+  border-radius: 0.6613756613756614vw;
+}
+
+.card img {
+  width: 38.095238095238095vw;
+  height: 19.841269841269842vw;
+  /* margin-bottom: 1.984126984126984vw; */
+}
+
+.cardContent {
+  padding: 1.984126984126984vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container{
+    padding: var(--mobileContainerPadding);
+    margin-top: var(--mobileContainerMarginTop);
+  }
+
+  .cards{
+    gap: 4vw;
+  }
+
+  .card{
+    width: 66.66666666666666vw;
+    height: 107.73333333333332vw;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .card img {
+    width: 66.66666666666666vw;
+    height: 48vw;
+    object-fit: cover;
+    border-radius: 2.666666666666667vw 2.666666666666667vw 0 0;
+  }
+}

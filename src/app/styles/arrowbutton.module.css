@@ -1,0 +1,45 @@
+.carouselButtonContainer {
+    display: flex;
+    gap: 1.3227513227513228vw;
+    justify-content: center;
+  }
+  
+  .carouselButtonContainerLeft,
+  .carouselButtonContainerRight {
+    width: 3.968253968253968vw;
+    height: 3.968253968253968vw;
+    background-color: #11215B;
+    border-radius: 1.3227513227513228vw;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3.2552083333333335vw;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    height: 1.1904761904761905vw;
+    filter: brightness(1000%);
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .carouselButtonContainer{
+      gap: 4vw;
+      width: auto !important;
+    }
+
+
+    .carouselButtonContainerLeft,
+    .carouselButtonContainerRight {
+      width: 9.333333333333334vw;
+      height: 9.333333333333334vw;
+      border-radius: 9.333333333333334vw;
+    }
+
+    .arrow{
+      height: 2.666666666666667vw;
+    }
+  }
+  

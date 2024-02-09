@@ -1,0 +1,186 @@
+.dafualt {
+  --font-Gellix: "Gellix", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+
+.container {
+  padding: var(--containerPadding);
+  margin-top: var(--containerMarginTop);
+  position: relative;
+  padding-right: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 1.984126984126984vw;
+  overflow: hidden;
+}
+
+.cards::-webkit-scrollbar {
+  width: 0;
+}
+
+.card {
+  width: 25.396825396825395vw;
+  height: 23.14814814814815vw;
+  cursor: pointer;
+  position: relative;
+}
+
+.card img {
+  width: 25.396825396825395vw;
+  height: 23.14814814814815vw;
+}
+
+.cardContent {
+  position: absolute;
+  width: 100%;
+
+  /* left: 0; */
+  height: 0;
+  background-color: #11215b;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  border-radius: 0.6613756613756614vw;
+  padding: 0 0;
+  padding: 3.3068783068783065vw 1.984126984126984vw;
+  background-color: transparent;
+  transition: height 0.8s ease, background-color 0.8s ease;
+}
+
+.card:hover .cardContent {
+  height: 100%;
+  background-color: #11215b;
+}
+
+.cardContent p {
+  display: none;
+}
+
+.card:hover .cardContent h3,
+.card:hover .cardContent p {
+  display: block;
+}
+
+.carouselButtonContainer {
+  display: flex;
+  gap: 1.3227513227513228vw;
+}
+
+.carouselButtonContainerLeft,
+.carouselButtonContainerRight {
+  width: 3.968253968253968vw;
+  height: 3.968253968253968vw;
+  background-color: #11215b;
+  border-radius: 1.3227513227513228vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.2552083333333335vw;
+  cursor: pointer;
+}
+
+.carouselButtonContainerLeft {
+  position: absolute;
+  left: 8.267195767195767vw;
+  bottom: 9.25925925925926vw;
+}
+
+.carouselButtonContainerRight {
+  position: absolute;
+  right: 8.267195767195767vw;
+  bottom: 9.25925925925926vw;
+}
+
+.arrow {
+  height: 1.1904761904761905vw;
+  filter: brightness(1000%);
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: var(--mobileContainerPadding);
+    margin-top: var(--containerMarginTop);
+    margin-bottom: 100px;
+  }
+
+  .cards {
+    overflow-x: scroll;
+  }
+
+  .card {
+    width: 53.333333333333336vw;
+    height: 90.66666666666666vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 53.333333333333336vw;
+    height: 40vw;
+    border-radius: 2.666666666666667vw 2.666666666666667vw 0 0;
+    object-fit: cover;
+  }
+
+  .cardContent {
+    position: relative;
+    height: 100%;
+    background-color: #11215b;
+    border-radius: 0 0 2.666666666666667vw 2.666666666666667vw;
+  }
+
+  .cardContent p {
+    display: none;
+  }
+
+  .cardContent h3,
+  .cardContent p {
+    display: block;
+    text-align: left !important;
+  }
+
+  .carouselButtonContainer {
+    gap: 4vw;
+    width: auto !important;
+    justify-content: center;
+    margin-top: 8vw;
+  }
+
+  .carouselButtonContainerLeft,
+  .carouselButtonContainerRight {
+    width: 9.333333333333334vw;
+    height: 9.333333333333334vw;
+    border-radius: 9.333333333333334vw;
+  }
+
+  .arrow {
+    height: 2.666666666666667vw;
+  }
+
+  .carouselButtonContainerLeft {
+    position: relative;
+    left: auto;
+    bottom: auto;
+  }
+
+  .carouselButtonContainerRight {
+    position: relative;
+    right: auto;
+    bottom: auto;
+  }
+}
