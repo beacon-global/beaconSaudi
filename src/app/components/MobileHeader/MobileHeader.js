@@ -60,21 +60,17 @@ function MobileHeader() {
               width={120}
               height={30}
               alt="ImageHeader"
-              // style={{
-              //   width: "34vw",
-              //   height: "4vw",
-              // }}
+              className={styles.logo}
             />
           </div>
         </a>
         <button
           aria-label="HamburgerMenu"
           onClick={toggleMenu}
-          className={`hamburger-button ${isMenuOpen ? "open" : ""} ${
-            styles.hamburgerButton
-          }`}
+          className={`hamburger-button ${isMenuOpen ? styles.open : ""}`}
           style={{ position: "relative", display: "flex", border: "none" }}
         >
+          <span className={`bar ${styles.bar}`}></span>
           <span className={`bar ${styles.bar}`}></span>
           <span className={`bar ${styles.bar}`}></span>
         </button>

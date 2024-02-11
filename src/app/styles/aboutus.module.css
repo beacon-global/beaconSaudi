@@ -1,0 +1,499 @@
+.dafualt {
+  --font-Gellix: "Gellix", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+.aboutUsMainContainer {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.aboutUsMainContainer h2 {
+  text-align: center;
+}
+
+.aboutPageHeading {
+  margin-top: 6.613756613756613vw;
+}
+
+.aboutUsMainContainer .mBusinessDesc1 {
+  display: none;
+}
+
+.firstImage {
+  width: 80.15873015873017vw;
+  border-radius: 0.6613756613756614vw;
+  margin-bottom: 3.3068783068783065vw;
+}
+
+.aboutUsHeroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--containerPadding);
+  margin-top: 4.62962962962963vw;
+}
+
+.aboutUsHeroContainer p {
+  width: 66.93121693121694vw;
+  color: #58595b;
+  text-align: center;
+}
+
+.greenBannerContiner {
+  background: #13670b;
+  width: 100%;
+  height: 194px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 135px;
+}
+
+.greenBannerContiner h1 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 67.2px */
+  text-transform: capitalize;
+}
+
+.greenBannerContiner p {
+  color: #fff;
+}
+
+.aboutUsContainer2 {
+  padding: var(--containerPadding);
+  margin-top: 8.597883597883598vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4.62962962962963vw;
+}
+
+.aboutUsContainer2 h2 {
+  margin: 0;
+}
+
+.cardMainContainer {
+  display: flex;
+  margin-top: 2.6455026455026456vw;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.968253968253968vw;
+  background-color: #f7f7f8;
+  padding: 0 3.968253968253968vw 2.6455026455026456vw 3.968253968253968vw;
+  position: relative;
+  border-radius: 10px;
+}
+
+.cardContainer .ImageCon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  left: 3.571428571428571vw;
+  top: -2.6455026455026456vw;
+  width: 66%;
+}
+
+.mCardIcon {
+  display: none;
+}
+
+.ImageCon div {
+  width: 5.291005291005291vw;
+  height: 5.291005291005291vw;
+}
+
+.cardContent {
+  display: flex;
+  margin-top: 4.62962962962963vw;
+  justify-content: space-between;
+}
+
+.cardContent div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cardContainer h1 {
+  text-align: left;
+  margin-bottom: 0.992063492063492vw;
+  color: #02040e;
+  font-size: 1.5873015873015872vw;
+  line-height: 120%; /* 28.8px */
+  text-transform: capitalize;
+}
+
+.cardContainer p {
+  text-align: left;
+  width: 95%;
+  color: #58595b;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.aboutUscontainer3 {
+  padding: var(--backgroundContainerPadding);
+  margin-top: 8.597883597883598vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f8;
+}
+
+.vissionMissionContainer {
+  display: flex;
+  gap: 1.984126984126984vw;
+}
+
+.vissionMissionCell {
+  display: flex;
+  flex-direction: column;
+  width: 25.396825396825395vw;
+  align-items: center;
+  justify-content: center;
+  gap: 5.291005291005291vw;
+}
+
+.vissionMissionContainer div:nth-child(2) .container3Content {
+  order: 1;
+  height: 26.455026455026452vw;
+}
+
+.vissionMissionContainer div:nth-child(2) .container3Img {
+  height: 16.203703703703702vw;
+}
+
+.container3Content {
+  display: flex;
+  flex-direction: column;
+  height: 21.494708994708994vw;
+  padding-top: 2.6455026455026456vw;
+  gap: 0.992063492063492vw;
+}
+
+.container3Content h1 {
+  color: #02040e;
+  text-align: center;
+  font-size: 1.984126984126984vw;
+  line-height: 120%; /* 36px */
+  text-transform: capitalize;
+}
+
+.container3Content p {
+  color: #58595b;
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.container3Img {
+  height: 21.494708994708994vw;
+}
+
+.aboutUscontainer4 {
+  padding: var(--containerPadding);
+  margin-top: 8.597883597883598vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4.62962962962963vw;
+}
+
+.aboutUscontainer4 h2 {
+  margin-top: 0;
+}
+
+.cvCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.984126984126984vw;
+  margin-top: 4.62962962962963vw;
+  margin-bottom: -2.976190476190476vw;
+}
+
+.cvBackground {
+  width: 25.396825396825395vw;
+  margin-bottom: 3.968253968253968vw;
+}
+
+.cvImg {
+  position: absolute;
+  top: -3.3068783068783065vw;
+  left: 0.992063492063492vw;
+  width: 5.291005291005291vw;
+  height: 5.291005291005291vw;
+}
+
+.cvContent {
+  position: relative;
+  background-color: #f7f7f8;
+  padding-top: 3.3068783068783065vw;
+  margin-bottom: -0.992063492063492vw;
+}
+
+.cvText {
+  padding: 0.6613756613756614vw 1.984126984126984vw 1.3227513227513228vw
+    1.984126984126984vw;
+  height: 14.550264550264549vw;
+}
+
+.cvContent h1 {
+  color: #02040e;
+  text-align: left;
+  font-size: 1.5873015873015872vw;
+  line-height: 120%; /* 24px */
+  text-transform: capitalize;
+  margin-bottom: 0.992063492063492vw;
+}
+
+.cvContent p {
+  text-align: left;
+  color: #58595b;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.hidden {
+  display: none;
+}
+
+.vissionMissionImage .loader {
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutUsMainContainer p {
+    font-size: 3.2vw;
+  }
+
+
+
+  .aboutPageHeading {
+    display: flex;
+    margin-top: 34.66666666666667vw;
+    padding: var(--mobileContainerPadding) !important;
+  }
+
+  
+  .aboutUsHeroContainer {
+    padding: var(--mobileContainerPadding);
+    margin-top: 0;
+  }
+
+  .firstImage{
+    width: 87.2vw;
+    height: 53.333333333333336vw;
+    margin-bottom: 5.333333333333334vw;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .firstImage img{
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .aboutUsHeroContainer p {
+    width: auto;
+  }
+
+  .greenBannerContiner {
+    padding: 30px 84px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: -10px;
+  }
+
+  .greenBannerContiner h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+    text-transform: capitalize;
+  }
+
+  .aboutUsContainer2 {
+    padding: var(--mobileContainerPadding);
+    margin-top: 13.333333333333334vw;
+    gap: 8vw;
+  }
+
+  .aboutUsContainer2 .mBusinessDesc1 {
+    margin: 0 auto;
+  }
+
+  .mobilePaddingCard {
+    padding-left: 14.399999999999999vw;
+  }
+
+  .cardMainContainer {
+    display: block;
+    margin-top: 0;
+  }
+
+  .cardContainer {
+    padding: 8vw 4vw 8vw 12vw;
+  }
+
+  .cardIcon {
+    display: none;
+  }
+
+  .cardContainer .ImageCon {
+    flex-direction: column;
+    left: -10.133333333333333vw !important;
+    height: 73%;
+    top: auto;
+    width: auto !important;
+  }
+
+  .ImageCon .mCardIcon {
+    width: 16vw !important;
+    height: 16vw !important;
+  }
+
+  .cardIcon {
+    display: none;
+  }
+
+  .mCardIcon {
+    display: flex;
+  }
+
+  .cardContent {
+    flex-direction: column;
+    margin: 0;
+    gap: 8vw;
+  }
+
+  .cardContent h1 {
+    color: #02040e;
+    font-size: 4.266666666666667vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.119999999999999vw;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+
+  .cardContent p {
+    width: 100%;
+  }
+
+  .aboutUscontainer3 {
+    padding:10.666666666666668vw 6.4vw 10.666666666666668vw 6.4vw;
+    margin-top: 13.333333333333334vw;
+  }
+
+  .vissionMissionContainer {
+    flex-direction: column;
+    gap: 8vw;
+  }
+
+  .vissionMissionCell {
+    width: auto;
+    gap: 0;
+  }
+
+  .vissionMissionCell p {
+    margin-bottom: 5.333333333333334vw;
+  }
+
+  .container3Img{
+    height: auto;
+    width: 87.2vw;
+  }
+
+  .vissionMissionContainer div:nth-child(2) .container3Content {
+    order: -1;
+    height: auto;
+  }
+
+  .vissionMissionContainer div:nth-child(2) .container3Img {
+    height: auto;
+  }
+
+  .vissionMissionContainer .vissionMissionCell:nth-child(3) {
+    
+  }
+
+  .container3Content {
+    height: auto;
+    padding-top: 0;
+    gap: 1.3333333333333335vw;
+  }
+
+  .container3Content h1 {
+    font-size: 4.8vw;
+    line-height: 5.760000000000001vw;
+    font-weight: 600;
+  }
+
+  .aboutUscontainer4 {
+    padding: var(--mobileContainerPadding);
+    margin-top: 13.333333333333334vw;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .aboutUscontainer4 .mBusinessDesc1 {
+    margin: 0;
+    text-align: center;
+    width: 87.2vw;
+    padding: var(--mobileContainerPadding);
+  }
+
+  .cvCard{
+    gap: 4vw;
+  }
+
+  .cvBackground {
+    width: 41.6vw;
+    margin-bottom: 8vw;
+  }
+
+  .cvImg {
+    width: 16vw;
+    height: 16vw;
+    top: -8vw;
+  }
+
+  .cvContent {
+    padding-top: 10.666666666666668vw;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .cvText {
+    height: 100%;
+    padding: 2.666666666666667vw 2.666666666666667vw 4vw 2.666666666666667vw;
+    height: 60vw;
+  }
+
+  .cvContent h1 {
+    font-size: 4.266666666666667vw;
+    margin-bottom: 1.3333333333333335vw;
+  }
+
+  .contactCont h2 {
+    margin-top: 0;
+  }
+}
