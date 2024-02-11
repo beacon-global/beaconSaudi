@@ -64,16 +64,16 @@ function MobileHeader() {
             />
           </div>
         </a>
-        <button
+        <div
           aria-label="HamburgerMenu"
           onClick={toggleMenu}
-          className={`hamburger-button ${isMenuOpen ? styles.open : ""}`}
+          className={`${styles.bars} ${isMenuOpen ? styles.open : ""}`}
           style={{ position: "relative", display: "flex", border: "none" }}
         >
           <span className={`bar ${styles.bar}`}></span>
           <span className={`bar ${styles.bar}`}></span>
           <span className={`bar ${styles.bar}`}></span>
-        </button>
+        </div>
         <div
           style={{
             position: "fixed",

@@ -10,6 +10,7 @@ import Container7 from "./components/Container7/Container7";
 import ContactBanner from "./components/ContactBanner/ContactBanner";
 import Footer from "./components/Footer/Footer";
 import MobileHeader from "./components/MobileHeader/MobileHeader";
+import { container6 } from "./contents/Data";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <Container3 />
       <Container4 />
       <Container5 />
-      <Container6 />
+      <Container6 data={container6}/>
       <Banner />
       <Container7 />
       <ContactBanner />

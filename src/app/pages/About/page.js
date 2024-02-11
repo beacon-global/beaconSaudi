@@ -101,16 +101,6 @@ function About() {
         </h2> */}
         <div className={styles.aboutUsHeroContainer}>
           <div className={styles.firstImage}>
-            {/* {!loaded && (
-              <div className="loader">
-                <div className="loader__bar"></div>
-                <div className="loader__bar"></div>
-                <div className="loader__bar"></div>
-                <div className="loader__bar"></div>
-                <div className="loader__bar"></div>
-                <div className="loader__ball"></div>
-              </div>
-            )} */}
             <Image
               quality={100}
               priority={true}

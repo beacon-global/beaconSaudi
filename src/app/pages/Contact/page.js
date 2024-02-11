@@ -1,12 +1,18 @@
 "use client";
 import React, { useState } from "react";
-import styles from "../../Styles/contact.module.css";
-import Header from "@/app/components/Header";
-import MobileHeader from "@/app/components/MobileHeader";
+import styles from "../../styles/contact.module.css";
+
 import Image from "next/image";
-import Footer from "@/app/components/Footer";
 import emailjs from "@emailjs/browser";
 import emailjsConfig from "../../../../emailjs.config";
+import Header from "@/app/components/Header/Header";
+import MobileHeader from "@/app/components/MobileHeader/MobileHeader";
+import Footer from "@/app/components/Footer/Footer";
+import {
+  BtnComponent,
+  CardHeading,
+  SectionTitle,
+} from "@/app/components/ButtonComponent";
 
 function Contact() {
   const [showUAECard, setShowUAECard] = useState(false);
@@ -68,10 +74,12 @@ function Contact() {
       <div className={styles.contactUsContainer}>
         <div className={styles.background}></div>
 
-        <h2 className="businessDesc">Get In Touch With Us!</h2>
-        <h2 className={`${styles.mBusinessDesc1} mBusinessDesc`}>
-          Get In Touch With Us!
-        </h2>
+        <div className={styles.title}>
+          <SectionTitle
+            sectionText="Get in touch with us!"
+            padding="0.6613756613756614vw 0 4.62962962962963vw 0"
+          />
+        </div>
 
         <div className={styles.container2}>
           <form className={styles.formContainer} onSubmit={handleSubmit}>
@@ -133,42 +141,47 @@ function Contact() {
                 onChange={handleChange}
                 placeholder="Type your message here..."
               ></textarea>
-
-              <div style={{ display: "none" }}>
-                <label htmlFor="country">Country *</label>
-                <input
-                  type="text"
-                  id="country"
-                  name="country"
-                  value="Saudi Arabia"
-                  readOnly
-                />
-              </div>
             </div>
             <div className={styles.formSubmit}>
               <button type="submit">Send Message</button>
             </div>
+
+            {/* <BtnComponent bg="#11215b" color="#fff" buttonText="Send Message" /> */}
           </form>
         </div>
 
         <div className={styles.container3}>
-          <h2 className="businessDesc">Get In Touch With Us!</h2>
-          <h2 className={`${styles.mBusinessDesc1} mBusinessDesc`}>
-            Get In Touch With Us!
-          </h2>
+          <div className={styles.title}>
+            <SectionTitle
+              sectionText="Get in touch with us!"
+              padding="0.6613756613756614vw 0 4.62962962962963vw 0"
+            />
+          </div>
           <div className={styles.contactMainCard}>
             <div className={styles.contactCard}>
               <a href="https://maps.app.goo.gl/UzvX5K7o9c3Cepmx9">
                 <div className={styles.contactImgContainer}>
                   <Image
-                    src="/NewSvgs/SVG2/contactMap.png"
+                    src="/ContactPage/1.svg"
+                    className={styles.mapImg}
                     width={72}
                     height={72}
                     alt="contactLocactionIcon"
                   />
+                  <Image
+                    src="/ContactPage/pin.svg"
+                    width={72}
+                    height={72}
+                    alt="contactLocactionIcon"
+                    className={styles.pinIcon}
+                  />
                 </div>
                 <div className={styles.contactCardContents}>
-                  <h1 className={`${styles.jeddah} servicesHeading`}>JEDDAH</h1>
+                  <CardHeading
+                    sectionText="JEDDAH"
+                    color="#fff"
+                    padding="0 0 0.992063492063492vw 0"
+                  />
                   <p className={styles.cardDesc}>
                     Building no. 4626, 501, 5th Floor, Hamza Shehatah St.
                     Al-Baghdadiyah Al-Gharbiyah Jeddah 22235
@@ -188,18 +201,29 @@ function Contact() {
               <a href="https://maps.app.goo.gl/Vk3noguNHKx7GrMD8">
                 <div className={styles.contactImgContainer}>
                   <Image
-                    src="/NewSvgs/SVG2/contactMap.png"
+                    src="/ContactPage/1.svg"
+                    className={styles.mapImg}
                     width={72}
                     height={72}
                     alt="contactLocactionIcon"
                   />
+                  <Image
+                    src="/ContactPage/pin.svg"
+                    width={72}
+                    height={72}
+                    alt="contactLocactionIcon"
+                    className={styles.pinIcon}
+                  />
                 </div>
                 <div className={styles.contactCardContents}>
-                  <h1 className={`${styles.jeddah} servicesHeading`}>DAMMAM</h1>
+                  <CardHeading
+                    sectionText="DAMMAM"
+                    color="#fff"
+                    padding="0 0 0.992063492063492vw 0"
+                  />
                   <p className={styles.cardDesc}>
                     Building no. 7447, B31, 3rd Floor, Al-Thasih St. Al-Amamrah,
-                    8th street Dammam <br />
-                    32415
+                    8th street Dammam 32415
                   </p>
                 </div>
               </a>
@@ -216,17 +240,29 @@ function Contact() {
               <a href="https://maps.app.goo.gl/vWfGvAjAcHxV9AUT9">
                 <div className={styles.contactImgContainer}>
                   <Image
-                    src="/NewSvgs/SVG2/contactMap.png"
+                    src="/ContactPage/1.svg"
+                    className={styles.mapImg}
                     width={72}
                     height={72}
                     alt="contactLocactionIcon"
                   />
+                  <Image
+                    src="/ContactPage/pin.svg"
+                    width={72}
+                    height={72}
+                    alt="contactLocactionIcon"
+                    className={styles.pinIcon}
+                  />
                 </div>
                 <div className={styles.contactCardContents}>
-                  <h1 className={`${styles.jeddah} servicesHeading`}>Riyadh</h1>
+                  <CardHeading
+                    sectionText="RIYADH"
+                    color="#fff"
+                    padding="0 0 0.992063492063492vw 0"
+                  />
                   <p className={styles.cardDesc}>
                     Le Cygne Commercial Center 2, 6th FloorAl-Arz,
-                    Al-Olaya,Riyadh <br /> 12611
+                    Al-Olaya,Riyadh  12611
                   </p>
                 </div>
               </a>
@@ -243,14 +279,26 @@ function Contact() {
               <a href="https://maps.app.goo.gl/vWfGvAjAcHxV9AUT9">
                 <div className={styles.contactImgContainer}>
                   <Image
-                    src="/NewSvgs/SVG2/contactMap.png"
+                    src="/ContactPage/1.svg"
+                    className={styles.mapImg}
                     width={72}
                     height={72}
                     alt="contactLocactionIcon"
                   />
+                  <Image
+                    src="/ContactPage/pin.svg"
+                    width={72}
+                    height={72}
+                    alt="contactLocactionIcon"
+                    className={styles.pinIcon}
+                  />
                 </div>
                 <div className={styles.contactCardContents}>
-                  <h1 className={`${styles.jeddah} servicesHeading`}>Jazan</h1>
+                  <CardHeading
+                    sectionText="JAZAN"
+                    color="#fff"
+                    padding="0 0 0.992063492063492vw 0"
+                  />
                   <p className={styles.cardDesc}>
                     Room No: 05, 4th Floor Makhtha 6, Prince Muhammed bin
                     Abdulaziz St. Ash Shati District. Jazan 82812

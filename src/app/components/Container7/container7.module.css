@@ -42,14 +42,14 @@
     justify-content: space-between;
   }
   
-  .plussIcon {
+  .plusIcon {
     width: 1.3227513227513228vw;
     height: 1.3227513227513228vw;
     margin-right: 1.0582010582010581vw;
     position: relative;
   }
   
-  .plussIcon img {
+  .plusIcon img {
     position: absolute;
     width: 1.3227513227513228vw;
     height: 1.3227513227513228vw;
@@ -104,13 +104,13 @@
     width: 72.53333333333333vw !important;
   }
 
-  .plussIcon {
+  .plusIcon {
     width: 4vw;
     height: 4vw;
     position: relative;
   }
 
-  .plussIcon img {
+  .plusIcon img {
     width: 4vw;
     height: 4vw;
     position: absolute;

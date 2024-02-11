@@ -61,7 +61,13 @@ const Container7 = () => {
                       transition: "transform .5s ease",
                     }}
                   >
-                    <Image src="/+.svg" width={16} height={16} alt="ImageFaq" />
+                    <Image
+                      src="/+.svg"
+                      width={16}
+                      height={16}
+                      alt="ImageFaq"
+                      className={styles.openCloseIcon}
+                    />
                   </div>
                 </div>
                 <div

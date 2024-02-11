@@ -9,6 +9,7 @@
   --borderRadius: 0.6613756613756614vw;
   --mobileBorderRadius: 2.666666666666667vw;
 }
+
 .aboutUsMainContainer {
   /* display: flex;
   flex-direction: column; */
@@ -30,6 +31,10 @@
   width: 80.15873015873017vw;
   border-radius: 0.6613756613756614vw;
   margin-bottom: 3.3068783068783065vw;
+}
+
+.firstImage img{
+  border-radius: 0.6613756613756614vw;
 }
 
 .aboutUsHeroContainer {
