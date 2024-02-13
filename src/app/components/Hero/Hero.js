@@ -31,6 +31,7 @@ const Hero = () => {
           quality={100}
           priority={true}
           unoptimized
+          alt="heroBtnImage"
         />
       </div>
     </div>

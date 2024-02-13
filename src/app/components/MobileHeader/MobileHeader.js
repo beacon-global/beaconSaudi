@@ -11,7 +11,7 @@ function MobileHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  console.log(pathname, "jkfsdfjdks");
+
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -23,10 +23,10 @@ function MobileHeader() {
 
   const menuList = [
     { text: "Home", href: "/" },
-    { text: "About Us", href: "/pages/About/" },
-    { text: "Services", href: "/pages/Services/" },
+    { text: "About Us", href: "/pages/About" },
+    { text: "Services", href: "/pages/Services" },
     // { text: "Blogs", href: "/" },
-    { text: "Contact Us", href: "/pages/Contact/" },
+    { text: "Contact Us", href: "/pages/Contact" },
   ];
 
   return (

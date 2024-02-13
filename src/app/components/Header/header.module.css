@@ -1,112 +1,116 @@
 .mHeader {
-    display: none;
-  }
-  
-  .hContainer {
-    width: 100%;
-    height: 6.283068783068783vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 8.597883597883598vw;
-    background-color: rgba(247, 247, 248, 1);
-  }
-  
-  .logoContainer img{
-    width: 11.904761904761903vw;
-    height: 2.976190476190476vw;
-  }
-  
-  .hUlList {
-    color: #02040e;
-    display: flex;
-    gap: 1.984126984126984vw;
-    font-size: 16px;
-    /* font-style: normal; */
-    font-weight: 600;
-    line-height: 140%;
-    position: relative;
-    white-space: nowrap;
-  }
+  display: none;
+}
 
-  .hUlList a{
-    color: #000;
-  }
-  
-  .hUlList li {
-    cursor: pointer;
-  }
-  
-  .hContainer .hButtonContainer {
-    background-color: #11215b;
-  }
-  
-  .headerContactButton .btn {
-    color: white;
-  }
-  
-  .hButtonContainer {
-    display: inline-flex;
-    padding: 15px 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  
-    border-radius: 61px;
-    background: #11215b;
-    width: 200px;
-  }
-  
-  .hContainer .headerContactButton {
-    width: 175px;
-    height: 55px;
-    height: 50px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    padding: 15px 0px 15px 0px;
-  }
+.active {
+  color: #11215b !important;
+  font-weight: 600 !important;
+}
 
-  /* Header Anim or Transi Start */
+.hContainer {
+  width: 100%;
+  height: 6.283068783068783vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8.597883597883598vw;
+  background-color: rgba(247, 247, 248, 1);
+}
+
+.logoContainer img {
+  width: 11.904761904761903vw;
+  height: 2.976190476190476vw;
+}
+
+.hUlList {
+  color: #02040e;
+  display: flex;
+  gap: 1.984126984126984vw;
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: 140%;
+  position: relative;
+  white-space: nowrap;
+}
+
+.hUlList a {
+  color: #000;
+}
+
+.hUlList li {
+  cursor: pointer;
+}
+
+.hContainer .hButtonContainer {
+  background-color: #11215b;
+}
+
+.headerContactButton .btn {
+  color: white;
+}
+
+.hButtonContainer {
+  display: inline-flex;
+  padding: 15px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 61px;
+  background: #11215b;
+  width: 200px;
+}
+
+.hContainer .headerContactButton {
+  width: 175px;
+  height: 55px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding: 15px 0px 15px 0px;
+}
+
+/* Header Anim or Transi Start */
 
 .huListTransitionWrapper {
-    /* width: 100%; */
-    height: 90%;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .listHoverTop,
-  .listBottomHover {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(-0%, -0%);
-    transition: transform 0.6s ease;
-  }
-  
-  .listHoverTop {
-    transform: translate(0%, -0%);
-  }
-  
-  .listHoverBottom {
-    transition: transform 0.6s ease;
-    transform: translate(0%, 250%);
-  }
-  
-  .huListTransitionWrapper:hover .listHoverTop {
-    transform: translate(0%, -250%);
-  }
-  
-  .huListTransitionWrapper:hover .listHoverBottom {
-    transform: translate(0%, 0%);
-  }
+  /* width: 100%; */
+  height: 90%;
+  overflow: hidden;
+  position: relative;
+}
 
-  
+.listHoverTop,
+.listBottomHover {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  transition: transform 0.6s ease;
+}
+
+.listHoverTop {
+  transform: translate(0%, -0%);
+}
+
+.listHoverBottom {
+  transition: transform 0.6s ease;
+  transform: translate(0%, 250%);
+}
+
+.huListTransitionWrapper:hover .listHoverTop {
+  transform: translate(0%, -250%);
+}
+
+.huListTransitionWrapper:hover .listHoverBottom {
+  transform: translate(0%, 0%);
+}
+
 @media only screen and (max-width: 767px) {
-  .hContainer{
+  .hContainer {
     display: none;
   }
 }

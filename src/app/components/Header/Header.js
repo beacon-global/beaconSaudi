@@ -10,10 +10,11 @@ function Header() {
 
   const menuList = [
     { text: "Home", href: "/" },
-    { text: "About Us", href: "/pages/About/" },
-    { text: "Services", href: "/pages/Services/" },
-    { text: "Contact Us", href: "/pages/Contact/" },
+    { text: "About Us", href: "/pages/About" },
+    { text: "Services", href: "/pages/Services" },
+    { text: "Contact Us", href: "/pages/Contact" },
   ];
+
 
   return (
     <>
@@ -37,16 +38,19 @@ function Header() {
               {menuList.map((item, index) => (
                 <li
                   key={index}
-                  className={`${styles.huListTransitionWrapper} ${
-                    pathname !== undefined &&
-                    pathname !== null &&
-                    pathname !== "" &&
-                    pathname === item.href
-                      ? styles.active
-                      : ""
-                  }`}
+                  className={`${styles.huListTransitionWrapper} `}
                 >
-                  <a href={item.href}>
+                  <a
+                    href={item.href}
+                    className={`${
+                      pathname !== undefined &&
+                      pathname !== null &&
+                      pathname !== "" &&
+                      pathname === item.href
+                        ? styles.active
+                        : ""
+                    }`}
+                  >
                     <div className={styles.listHoverTop}>{item.text}</div>
                     <div className={styles.listHoverBottom}>{item.text}</div>
                   </a>
@@ -56,7 +60,7 @@ function Header() {
           </div>
         </div>
         <a href="tel:966 570 807 175">
-          <BtnComponent 
+          <BtnComponent
             buttonText="+ 966 570 807 175"
             header={true}
             bg="#11215B"

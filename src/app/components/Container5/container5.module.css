@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80.15873015873017vw;
 }
 
 .cards {
@@ -119,8 +120,13 @@
     margin-bottom: 100px;
   }
 
+  .title{
+    width: auto;
+  }
+
   .cards {
     overflow-x: scroll;
+    gap: 4vw;
   }
 
   .card {

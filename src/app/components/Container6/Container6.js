@@ -14,7 +14,7 @@ const Container6 = ({ data, servicePage }) => {
     flexDirection: "column",
     alignItems: "center ",
     textAlign: "center",
-    height:"auto",
+    height: "auto",
   };
 
   const cardData = data.cardData;
@@ -51,7 +51,7 @@ const Container6 = ({ data, servicePage }) => {
                   className={styles.cardIcon}
                 />
               ) : (
-                data.img
+                <CardHeading sectionText={data.img} color="#fff" />
               )}
             </div>
             <CardHeading
