@@ -27,69 +27,138 @@ const BtnComponent = ({
       }}
     >
       <div className="visibleWrapperContainer">
-        <div className="topVisibleContainer buttonText">
-          <h5
-            className="buttonText"
-            style={{
-              margin: h5Margin ? h5Margin : "0 0.6510416666666667vw 0 0",
-            }}
-          >
-            {buttonText}
-          </h5>
-          {arrow ? (
-            <Image
-              className={`${header ? "callIcon" : ""} rightArrow`}
-              src={
-                header
-                  ? "/Header/icon.svg"
-                  : borderColor
-                  ? "/blackArrow.svg"
-                  : "/whiteArrow.svg"
-              }
-              alt="Asian Engineer"
-              width={100}
-              height={100}
-              quality={100}
-              priority={true}
-              unoptimized
-              //   style={{
-              //     filter: arrowColor ? "brightness(1000%)" : "",
-              //   }}
-            />
-          ) : (
-            ""
-          )}
-        </div>
-        <div className="bottomVisibleContainer buttonText">
-          <h5
-            className="buttonText"
-            style={{
-              margin: h5Margin ? h5Margin : "0 0.6510416666666667vw 0 0",
-            }}
-          >
-            {buttonText}
-          </h5>
-          {arrow ? (
-            <Image
-              className={`${header ? "callIcon" : ""} rightArrow`}
-              src={
-                header
-                  ? "/Header/icon.svg"
-                  : borderColor
-                  ? "/blackArrow.svg"
-                  : "/whiteArrow.svg"
-              }
-              alt="Asian Engineer"
-              width={100}
-              height={100}
-              quality={100}
-              priority={true}
-              unoptimized
-            />
-          ) : (
-            ""
-          )}
-        </div>
+        {header ? (
+          <div className="topVisibleContainer buttonText">
+            {arrow ? (
+              <Image
+                className={`${header ? "callIcon" : ""} rightArrow`}
+                src={
+                  header
+                    ? "/Header/icon.svg"
+                    : borderColor
+                    ? "/blackArrow.svg"
+                    : "/whiteArrow.svg"
+                }
+                alt="Asian Engineer"
+                width={100}
+                height={100}
+                quality={100}
+                priority={true}
+                unoptimized
+                //   style={{
+                //     filter: arrowColor ? "brightness(1000%)" : "",
+                //   }}
+              />
+            ) : (
+              ""
+            )}
+            <h5
+              className="buttonText"
+              style={{
+                margin: h5Margin ? h5Margin : "0 0 0 0.6510416666666667vw",
+              }}
+            >
+              {buttonText}
+            </h5>
+          </div>
+        ) : (
+          <div className="topVisibleContainer buttonText">
+            <h5
+              className="buttonText"
+              style={{
+                margin: h5Margin ? h5Margin : "0 0.6510416666666667vw 0 0",
+              }}
+            >
+              {buttonText}
+            </h5>
+            {arrow ? (
+              <Image
+                className={`${header ? "callIcon" : ""} rightArrow`}
+                src={
+                  header
+                    ? "/Header/icon.svg"
+                    : borderColor
+                    ? "/blackArrow.svg"
+                    : "/whiteArrow.svg"
+                }
+                alt="Asian Engineer"
+                width={100}
+                height={100}
+                quality={100}
+                priority={true}
+                unoptimized
+                //   style={{
+                //     filter: arrowColor ? "brightness(1000%)" : "",
+                //   }}
+              />
+            ) : (
+              ""
+            )}
+          </div>
+        )}
+        {header ? (
+          <div className="bottomVisibleContainer buttonText">
+            {arrow ? (
+              <Image
+                className={`${header ? "callIcon" : ""} rightArrow`}
+                src={
+                  header
+                    ? "/Header/icon.svg"
+                    : borderColor
+                    ? "/blackArrow.svg"
+                    : "/whiteArrow.svg"
+                }
+                alt="Asian Engineer"
+                width={100}
+                height={100}
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+            ) : (
+              ""
+            )}
+            <h5
+              className="buttonText"
+              style={{
+                margin: h5Margin ? h5Margin : "0 0 0 0.6510416666666667vw",
+              }}
+            >
+              {buttonText}
+            </h5>
+          </div>
+        ) : (
+          <div className="bottomVisibleContainer buttonText">
+            <h5
+              className="buttonText"
+              style={{
+                margin: h5Margin ? h5Margin : "0 0.6510416666666667vw 0 0",
+              }}
+            >
+              {buttonText}
+            </h5>
+            {arrow ? (
+              <Image
+                className={`${header ? "callIcon" : ""} rightArrow`}
+                src={
+                  header
+                    ? "/Header/icon.svg"
+                    : borderColor
+                    ? "/blackArrow.svg"
+                    : "/whiteArrow.svg"
+                }
+                alt="Asian Engineer"
+                width={100}
+                height={100}
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+            ) : (
+              ""
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -106,6 +175,7 @@ const SectionName = ({ sectionText, weight, textAllign }) => {
         textAlign: textAllign,
         background: "#11215B",
         borderRadius: "4.62962962962963vw",
+        textTransform:"uppercase"
       }}
     >
       {sectionText}

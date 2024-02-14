@@ -12,7 +12,6 @@
 
 .container {
   margin-top: 8.597883597883598vw;
-  padding: var(--containerPadding);
   padding-right: 0;
 }
 
@@ -20,11 +19,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80.15873015873017vw;
+  padding: var(--containerPadding);
 }
 
 .cards {
   display: flex;
+  padding: var(--containerPadding);
   gap: 1.984126984126984vw;
   overflow-x: scroll;
 }
@@ -53,16 +53,21 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .container{
-    padding: var(--mobileContainerPadding);
+  .container {
+    
     margin-top: var(--mobileContainerMarginTop);
   }
-
-  .cards{
-    gap: 4vw;
+  
+  .title{
+    padding: var(--mobileContainerPadding);
   }
 
-  .card{
+  .cards {
+    gap: 4vw;
+    padding: var(--mobileContainerPadding);
+  }
+
+  .card {
     width: 66.66666666666666vw;
     height: 107.73333333333332vw;
     border-radius: 2.666666666666667vw;

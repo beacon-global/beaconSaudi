@@ -11,23 +11,23 @@
 }
 
 .container {
-  padding: var(--containerPadding);
   margin-top: var(--containerMarginTop);
   position: relative;
   padding-right: 0;
+  overflow: hidden;
 }
 
 .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80.15873015873017vw;
+  padding: var(--containerPadding);
 }
 
 .cards {
   display: flex;
   gap: 1.984126984126984vw;
-  overflow: hidden;
+  padding: var(--containerPadding);
 }
 
 .cards::-webkit-scrollbar {
@@ -115,18 +115,21 @@
 
 @media only screen and (max-width: 767px) {
   .container {
-    padding: var(--mobileContainerPadding);
+    padding: 0;
     margin-top: var(--containerMarginTop);
     margin-bottom: 100px;
+    overflow: hidden;
   }
 
   .title{
     width: auto;
+    padding: var(--mobileContainerPadding);
   }
 
   .cards {
     overflow-x: scroll;
     gap: 4vw;
+    padding: var(--mobileContainerPadding);
   }
 
   .card {
