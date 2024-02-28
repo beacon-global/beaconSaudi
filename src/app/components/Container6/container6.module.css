@@ -116,6 +116,7 @@
     padding: 5.333333333333334vw 4vw;
     border-radius: 2.666666666666667vw;
     text-align: center;
+    height: auto;
   }
 
   .cardContainerOverlay{

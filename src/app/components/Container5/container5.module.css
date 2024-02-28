@@ -163,7 +163,7 @@
   .cardContent h3,
   .cardContent p {
     display: block;
-    text-align: left !important;
+    text-align: center !important;
   }
 
   .carouselButtonContainer {
