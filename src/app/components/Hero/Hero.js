@@ -18,7 +18,7 @@ const Hero = () => {
       <div className={styles.contentContainer}>
         <h1>Saudi Vision 2030</h1>
         <SectionDescription
-          sectionText="Lorem ipsum dolor sit amet consectetur. Id habitant pellentesque feugiat aliquam mattis bibendum arcu quis dis at risus sodales. Interdum iaculis libero at at."
+          sectionText="A transformative journey towards a vibrant society, a thriving economy, and an ambitious nation."
           width="34.32539682539682vw"
           margin="1.3227513227513228vw 0vw 0 0vw"
           color="rgba(255,255,255,0.8)"
