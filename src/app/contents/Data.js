@@ -1,49 +1,61 @@
 const container2 = {
-  sectionName: "Advantages",
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
+  sectionName: "Benefits",
+  sectionTitle: "Benefits of Business Setup in KSA",
   cardData: [
     {
       img: "/Container2/1.png",
-      cardHeading: "Global gateway to trade",
+      cardHeading: "Embrace an environment conducive to business growth",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
+        "Saudi Arabia recognizes the potential of entrepreneurs and has implemented significant reforms to streamline the business setup process. This translates to faster registration times and simplified procedures, allowing you to focus on your core business objectives.",
     },
     {
       img: "/Container2/2.png",
-      cardHeading: "Global gateway to trade",
+      cardHeading: "Tap into a thriving market",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
+        "The Kingdom boasts a population exceeding 34 million, offering a vast consumer base with increasing disposable incomes. This growing middle class presents lucrative opportunities across diverse sectors, making Saudi Arabia an attractive market for businesses of all sizes.",
     },
     {
       img: "/Container2/3.png",
-      cardHeading: "Global gateway to trade",
+      cardHeading: "Become a strategic regional player",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
+        "Saudi Arabia's strategic location positions it as a gateway to the entire Middle East market. By establishing your business in the Kingdom, you gain easy access to neighboring countries and pave the way for regional expansion, enabling you to reach a wider audience and enhance your brand reach.",
+    },
+    {
+      img: "/Container2/4.png",
+      cardHeading: "Leverage government support and incentives",
+      description:
+        "The Saudi government actively supports business development through a range of initiatives. This includes offering tax exemptions, facilitating access to funding, and providing valuable support for research and development activities. Additionally, the premium residency program provides unique opportunities for entrepreneurs to access the Kingdom's thriving market.",
+    },
+    {
+      img: "/Container2/5.png",
+      cardHeading: "Invest in a future-proof business environment",
+      description:
+        "Vision 2030 presents immense opportunities for investors across various sectors. The focus on renewable energy, affordable housing, and infrastructure development opens doors to exciting investment avenues, allowing your business to align with the Kingdom's future vision and unlock its full potential in a dynamic and evolving economy.",
     },
   ],
 };
 
 const container3 = {
   sectionName: "Vision 2030",
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
+  sectionTitle: "A Flourishing Future Awaits",
   cardData: [
     {
       img: "/Container3/1.png",
       cardHeading: "A Vibrant Society",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        "Education and healthcare flourish, empowering all. Cultural expressions paint a vibrant canvas, while sporting arenas echo with cheers. Moderation and tolerance weave a welcoming society.",
     },
     {
       img: "/Container3/2.png",
       cardHeading: "A Thriving Economy",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        "Diversifying beyond oil, Saudi Arabia blossoms as a hub for innovation and global investment. Fertile ground for flourishing industries and empowered entrepreneurs.",
     },
     {
       img: "/Container3/3.png",
       cardHeading: "An Ambitious Nation",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        " Transparency and accountability guide the nation. Infrastructure paves the way for progress, while cutting-edge technology propels the future. A commitment to sustainability ensures a thriving planet.",
     },
   ],
 };
@@ -59,74 +71,80 @@ const container4 = {
 
 const container5 = {
   sectionName: "Projects",
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
+  sectionTitle: "Pioneering Projects Shaping a Brighter Future",
   cardData: [
     {
       img: "/Container5/1.png",
-      cardHeading: "A Vibrant Society",
+      cardHeading: "The Red Sea",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        "A transformative tourism development creating a luxurious and sustainable destination on the Red Sea coast.",
     },
     {
-      img: "/Container5/1.png",
-      cardHeading: "A Thriving Economy",
+      img: "/Container5/2.png",
+      cardHeading: "NEOM",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        "A cognitive city of the future powered by cutting-edge technologies and designed to foster human well-being.",
     },
     {
-      img: "/Container5/1.png",
-      cardHeading: "An Ambitious Nation",
+      img: "/Container5/3.png",
+      cardHeading: "Qiddiya",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        " An entertainment, sports, and cultural mega-project aiming to become a global tourism and leisure hub.",
     },
     {
-      img: "/Container5/1.png",
-      cardHeading: "An Ambitious Nation",
+      img: "/Container5/4.png",
+      cardHeading: "The Line",
       description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+        " A revolutionary linear city envisioned as a sustainable urban environment with zero-carbon emissions.",
+    },
+    {
+      img: "/Container5/5.png",
+      cardHeading: "Amaala",
+      description:
+        "A wellness tourism destination offering personalized experiences and a commitment to environmental protection.",
     },
   ],
 };
 
 const container6 = {
   sectionName: "Process",
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
+  sectionTitle: "Navigate Your Business Journey in Saudi Arabia",
   cardData: [
     {
-      img: "1",
-      cardHeading: "Business Activity Selection",
+      img: "01",
+      cardHeading: "Define Your Focus",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "Before embarking on your business journey, clearly define your focus area. Identify the industry you want to operate in and the specific activities you plan to undertake. This information is crucial for determining the ideal location for your business, whether the mainland or a free zone, and the type of license and legal structure you will need.",
     },
     {
-      img: "2",
-      cardHeading: "A Thriving Economy",
+      img: "02",
+      cardHeading: "Choose Your Location",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "Carefully consider both the mainland and free zone options. The optimal choice depends on your specific business needs, such as access to specific markets, tax benefits, and required infrastructure. Additionally, consider Saudi Arabia's requirement for foreign investors with no regional headquarters to either lease a business space or partner with a local service agent. This information will also influence your location selection.",
     },
     {
-      img: "3",
-      cardHeading: "An Ambitious Nation",
+      img: "03",
+      cardHeading: "Secure Your Investment License",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "To officially begin your operations, you will need to obtain a SAGIA License from the Saudi Arabia General Investment Authority. This license empowers you to invest in the country, establish or acquire a company, or set up a foreign branch. Additionally, you will need to apply for a Commercial Registration (CR) certificate from the Ministry of Commerce & Investment.",
     },
     {
-      img: "4",
-      cardHeading: "An Ambitious Nation",
+      img: "04",
+      cardHeading: "Gather Essential Documents",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "Prepare the necessary documentation to move forward with your business establishment. This includes identification and address proof for both directors and shareholders, along with passport copies for all individuals in these roles. Additionally, a copy of your trade name declaration is required.",
     },
     {
-      img: "5",
-      cardHeading: "An Ambitious Nation",
+      img: "05",
+      cardHeading: "Prepare Legal Documents",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "To formally establish your business, you will need to draft two key documents: the Memorandum of Association (MoA) and the Articles of Association (AoA). These documents outline your company's objectives, ownership structure, and operational framework. Furthermore, you need to appoint a General Director and provide their passport copy for official records.",
     },
     {
-      img: "6",
-      cardHeading: "An Ambitious Nation",
+      img: "06",
+      cardHeading: "Secure Additional Support",
       description:
-        "Lorem Ipsum is simply dummy text of the printiones and futuresion miniction future  typesetting industryhas been the industry's standard dummy text ever since the thescrambledLorem.",
+        "Navigating the intricate details of business setup in a new country can be complex. To ensure a smooth process, consider seeking professional guidance from experienced business consultants. Remember, this information provides a general overview. For specific requirements and tailored advice, consult professional resources appropriate to your situation.",
     },
   ],
 };

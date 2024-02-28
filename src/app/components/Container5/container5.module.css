@@ -44,17 +44,20 @@
 .card img {
   width: 25.396825396825395vw;
   height: 23.14814814814815vw;
+  border-radius: var(--borderRadius);
 }
 
 .cardContent {
   position: absolute;
   width: 100%;
 
-  /* left: 0; */
+  
   height: 0;
   background-color: #11215b;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   bottom: 0;
   border-radius: 0.6613756613756614vw;
   padding: 0 0;

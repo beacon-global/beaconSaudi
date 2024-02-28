@@ -22,9 +22,12 @@ const Banner = () => {
           padding="0 0 1.3227513227513228vw 0"
         />
         <h3>
-          As a highly dynamic destination that has demonstrated its ability to
-          react quickly to market demand, Dubai is uniquely positioned to adapt
-          and develop its legacy as a city for the global community.
+          Strategically located at the heart of the Middle East (as shown in the
+          image), Saudi Arabia acts as a gateway to the entire region, enabling
+          you to expand your reach and customer base significantly. The
+          government further enhances the business environment by providing
+          valuable support through tax exemptions, funding access, and
+          assistance with research and development endeavors.
         </h3>
       </div>
     </div>

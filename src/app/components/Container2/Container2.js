@@ -18,7 +18,7 @@ const Container2 = () => {
 
   const cardData = container2.cardData;
   const totalData = container2.cardData.length;
-  const clicks = isSmallScreen ? totalData - 1 : totalData - 2;
+  const clicks = isSmallScreen ? totalData - 1 : totalData - 1;
   const dynamicValue = isSmallScreen ? 62 : 30.079365079
 
   const nextImage = () => {
