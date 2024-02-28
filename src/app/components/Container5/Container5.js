@@ -84,7 +84,12 @@ const Container5 = () => {
           </div>
         ))}
       </div>
-      <div className={styles.carouselButtonContainer}>
+      <ArrowButtons
+        prevImage={prevImage}
+        nextImage={nextImage}
+        margin="4.62962962962963vw 0 0 0"
+      />
+      {/* <div className={styles.carouselButtonContainer}>
         <div
           onClick={prevImage}
           className={`${styles.carouselButtonContainerLeft} ${styles.carouselHover}`}
@@ -109,7 +114,7 @@ const Container5 = () => {
             className={styles.arrow}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

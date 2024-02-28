@@ -84,10 +84,9 @@ const Container2 = () => {
         ))}
       </div>
       <ArrowButtons
-        // currentIndex={currentIndex}
         prevImage={prevImage}
         nextImage={nextImage}
-        margin="4.62962962962963vw 0 0 0"
+        margin="4.12962962962963vw 0 0 0"
       />
     </div>
   );
