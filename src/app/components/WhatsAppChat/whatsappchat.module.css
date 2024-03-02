@@ -1,0 +1,104 @@
+.chatIcon {
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  z-index: 1000;
+  width: 5vw;
+  height: 5vw;
+  animation: whatssAppIcon 5s infinite;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #11215b;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.imgContainer img{
+    width: 3vw;
+    height: 3vw;
+}
+
+.whatsappChat {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  width: 24.869791666666664vw;
+}
+
+.closeButton {
+  color: #fff;
+  position: absolute;
+  right: 2.604166666666667vw;
+  top: 1.2vw;
+  font-size: 1.6276041666666667vw;
+  cursor: pointer;
+}
+
+@keyframes whatssAppIcon {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1 rotate(20deg));
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1) rotate(20deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.topCard {
+  width: 100%;
+  background-color: #11215b;
+  padding: 1.3020833333333335vw;
+  position: relative;
+}
+
+.topCard h3 {
+  color: #fff;
+  font-size: 1.5873015873015872vw;
+  margin-bottom: 0.32552083333333337vw;
+}
+
+.topCard p {
+  color: #fff;
+  font-size: 1.0582010582010581vw;
+}
+
+.officeCards {
+  padding: 1.3020833333333335vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+}
+
+.officeCard {
+  display: flex;
+  gap: 0.6510416666666667vw;
+  align-items: center;
+}
+
+.officeCard:hover {
+  cursor: pointer;
+}
+
+.officeCard img {
+  width: 1.6276041666666667vw;
+  height: 1.6276041666666667vw;
+}

@@ -9,12 +9,14 @@ import Container2 from "./components/Container2/Container2";
 import Clients from "./components/ClientsContainer/Clients";
 import Container7 from "./components/WhySaudiInner/Container7/Container7";
 import ContactBanner from "./components/WhySaudiInner/ContactBanner/ContactBanner";
+import WhatsAppChat from "./components/WhatsAppChat/WhatsAppChat";
 
 export default function Home() {
   return (
     <main>
       <Header />
       <MobileHeader />
+      <WhatsAppChat />
       <Hero />
       <Container6 data={container6} />
       <Container4 />
@@ -23,7 +25,6 @@ export default function Home() {
       <Container7 />
       <ContactBanner />
       <Footer />
-
     </main>
   );
 }
