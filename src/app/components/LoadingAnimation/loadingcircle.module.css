@@ -1,0 +1,16 @@
+.DesktopLottieContainer {
+    display: block;
+}
+
+.MobileLottieContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .DesktopLottieContainer {
+    display: none;
+  }
+  .MobileLottieContainer {
+    display: block;
+  }
+}
