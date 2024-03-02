@@ -1,14 +1,20 @@
+"use client"
 import React from "react";
 import styles from "./container6.module.css";
 import {
+  BtnComponent,
   CardHeading,
   SectionDescription,
   SectionName,
   SectionTitle,
 } from "../ButtonComponent";
 import Image from "next/image";
+import { useWindowSize } from "@/app/utils.js/windowSize";
 
 const Container6 = ({ data, servicePage }) => {
+  const { windowSize, isSmallScreen } = useWindowSize();
+  console.log(isSmallScreen,"btn")
+
   const servicePageStyle = {
     display: "flex",
     flexDirection: "column",
@@ -35,24 +41,20 @@ const Container6 = ({ data, servicePage }) => {
           <div
             className={styles.card}
             key={index}
-            style={servicePage ? servicePageStyle : {}}
+            style={servicePage ? servicePageStyle : servicePageStyle}
           >
             <div className={styles.number}>
-              {servicePage ? (
-                <Image
-                  quality={100}
-                  priority={true}
-                  unoptimized
-                  src={data.img}
-                  width={80}
-                  height={80}
-                  layout="responsive"
-                  alt="aboutus2"
-                  className={styles.cardIcon}
-                />
-              ) : (
-                <CardHeading sectionText={data.img} color="#fff" />
-              )}
+              <Image
+                quality={100}
+                priority={true}
+                unoptimized
+                src={data.img}
+                width={80}
+                height={80}
+                layout="responsive"
+                alt="aboutus2"
+                className={styles.cardIcon}
+              />
             </div>
             <CardHeading
               sectionText={data.cardHeading}
@@ -62,27 +64,20 @@ const Container6 = ({ data, servicePage }) => {
               sectionText={data.description}
               color="#58595B"
             />
-            {servicePage && (
-              <div className={styles.cardContainerOverlay}>
-                <CardHeading
-                  sectionText={data.cardHeading}
-                  padding="0 0 0.992063492063492vw 0 "
-                />
-                <div className={styles.overLayDesc}>
-                  <p>{data.details[0]}</p>
-                  <p>{data.details[1]}</p>
-                  <p>{data.details[2]}</p>
-                  <p>{data.details[3]}</p>
-                  <p>{data.details[4]}</p>
-                  <p>{data.details[5]}</p>
-                  <p>{data.details[6]}</p>
-                  <p>{data.details[7]}</p>
-                </div>
-              </div>
-            )}
           </div>
         ))}
       </div>
+      <a href="pages/Services">
+        <BtnComponent
+          buttonText={data.btnText}
+          bg="transparrent"
+          borderColor="#02040E"
+          arrow={true}
+          color="#02040E"
+          btnFill={true}
+          margin={isSmallScreen ? "8vw auto 0 auto" :"3.3068783068783065vw auto 0 auto"}
+        />
+      </a>
     </div>
   );
 };

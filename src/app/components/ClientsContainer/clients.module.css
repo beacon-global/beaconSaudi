@@ -1,0 +1,248 @@
+/* Clients Start  */
+
+.clientsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f8;
+  margin-top: var(--containerMarginTop);
+}
+
+.clientsContainer .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h4 {
+  margin-top: 6.613756613756613vw;
+}
+
+.title h2 {
+  margin-top: 0.6613756613756614vw;
+  margin-bottom: 4.62962962962963vw;
+}
+
+.arrowButtonsTest {
+  display: none;
+}
+
+.testimonialProfileContainer {
+  display: flex;
+  gap: 1.984126984126984vw;
+  justify-content: center;
+}
+
+.testimonialMainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(17, 33, 91, 1);
+  flex-direction: column;
+  padding: var(--containerPadding);
+  padding-top: 6.613756613756613vw;
+  padding-bottom: 1.984126984126984vw;
+  margin-top: 4.62962962962963vw;
+}
+
+.businessContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonialMainContainer .businessContentContainer h4 {
+  background-color: #fff !important;
+  color: #11215b !important;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.testimonialMainContainer .businessContentContainer h2 {
+  color: #fff;
+  width: 38.02910052910053vw;
+  text-align: center;
+  margin-top: 0.6613756613756614vw;
+  margin-bottom: 3.968253968253968vw;
+}
+
+.testimonialRightContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonialImageButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonialProfile {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.984126984126984vw;
+  width: 25.396825396825395vw;
+  border-radius: 0.6613756613756614vw;
+}
+
+.testimonialProfile p {
+  text-align: left;
+  color: #fff;
+}
+
+.testiImg {
+  position: relative;
+  width: 3.968253968253968vw;
+  height: 3.968253968253968vw;
+  margin-top: 1.3227513227513228vw;
+}
+
+.testiImg img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.testimonialProfile:nth-child(3) {
+  margin: 0;
+}
+
+.testimonialProfile img {
+  border-radius: 50%;
+  object-position: top;
+  object-fit: cover;
+}
+
+.profileName {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.3227513227513228vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8518518518518516vw;
+}
+
+.profileDesignation {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.0582010582010581vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4814814814814814vw;
+}
+
+.testimonialCardBottom {
+  display: flex;
+  align-items: center;
+  gap: 0.992063492063492vw;
+}
+
+.testimonialMainContainer hr {
+  align-self: center;
+  width: 80.15873015873017vw;
+  margin-top: 4.62962962962963vw;
+}
+
+.leftButton,
+.rightButton {
+  color: #fff;
+  font-size: 1.0582010582010581vw;
+  width: 3.3068783068783065vw;
+  height: 3.3068783068783065vw;
+  border-radius: 3.3068783068783065vw;
+  border: 0.06613756613756613vw solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .clientsContainer {
+    margin-top: var(--mobileContainerMarginTop);
+  }
+
+  .testimonialMainContainer {
+    margin-top: 10.666666666666668vw;
+  }
+
+  .testimonialMainContainer .businessContentContainer h2 {
+    width: auto;
+    margin-bottom: 8vw;
+  }
+
+  .testimonialProfileContainer {
+    display: flex;
+    margin-left: 100%;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .testimonialProfile {
+    width: 78.13333333333333vw;
+    /* height: 71.46666666666667vw; */
+    padding: 5.333333333333334vw 4vw;
+    border-radius: 2.666666666666667vw;
+  }
+
+  .testimonialRightContainer {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .testimonialMessage p{
+    font-size: 4.266666666666667vw;
+  }
+
+  .testimonialCardBottom{
+    gap: 2.666666666666667vw;
+    margin-top: 2.666666666666667vw;
+  }
+
+  .testiImg{
+    height: 10.666666666666668vw;
+    width: 10.666666666666668vw;
+    border-radius: 10.666666666666668vw;
+  }
+
+  .profileName {
+    font-size: 3.733333333333334vw;
+    line-height: 5.226666666666667vw;
+  }
+  
+  .profileDesignation {
+    font-size: 3.2vw;
+    line-height: 4.4799999999999995vw;
+  }
+
+  .rightButton,
+  .leftButton {
+    display: none;
+  }
+
+  .arrowButtonsTest {
+    display: flex;
+    margin-top: 8vw;
+    gap: 4vw;
+  }
+
+  .arrowButtonsTest .rightButton,
+  .arrowButtonsTest .leftButton {
+    width: 9.333333333333334vw;
+    height: 9.333333333333334vw;
+    border-radius: 9.333333333333334vw;
+    font-size: 6.4vw;
+    border: 0.26666666666666666vw solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonialMainContainer hr {
+    align-self: center;
+    width: 87.2vw;
+    margin-top: 4vw;
+  }
+}

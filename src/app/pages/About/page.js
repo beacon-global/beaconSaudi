@@ -3,10 +3,11 @@ import styles from "../../styles/aboutus.module.css";
 import React, { useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import Header from "@/app/components/Header/Header";
-import MobileHeader from "@/app/components/MobileHeader/MobileHeader";
-import ContactBanner from "@/app/components/ContactBanner/ContactBanner";
-import Footer from "@/app/components/Footer/Footer";
+import Header from "@/app/components/WhySaudiInner/Header/Header";
+import MobileHeader from "@/app/components/WhySaudiInner/MobileHeader/MobileHeader";
+import ContactBanner from "@/app/components/WhySaudiInner/ContactBanner/ContactBanner";
+import Footer from "@/app/components/WhySaudiInner/Footer/Footer";
+import Stats from "@/app/components/ClientsContainer/Stats";
 
 // const Header = dynamic(() => import("@/app/components/Header"));
 // const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
@@ -133,7 +134,9 @@ function About() {
           </p>
         </div>
 
-        {/* <Stats useBackgroundImage={useBackgroundImage} isMainPage={false} /> */}
+        <div className={styles.statContainer}>
+          <Stats useBackgroundImage={useBackgroundImage} isMainPage={false} />
+        </div>
 
         <div className={styles.aboutUsContainer2}>
           <h2 className="businessDesc">

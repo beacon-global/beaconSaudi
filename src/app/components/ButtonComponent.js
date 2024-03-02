@@ -13,10 +13,11 @@ const BtnComponent = ({
   arrowColor,
   height,
   header,
+  btnFill
 }) => {
   return (
     <div
-      className={`btnContainer${arrow ? "" : ""}`}
+      className={`btnContainer${btnFill ? " btnFill" : ""}`}
       style={{
         border: "0.10416666666666667vw solid " + borderColor,
         background: bg,

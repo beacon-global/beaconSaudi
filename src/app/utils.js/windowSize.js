@@ -20,7 +20,7 @@ function useWindowSize() {
       });
 
       // Update the boolean variable based on the window width
-      setIsSmallScreen(newWidth < 768);
+      setIsSmallScreen(newWidth < 767);
     }
 
     // Add event listener

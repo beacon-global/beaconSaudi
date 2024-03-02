@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./hero.module.css";
-import { SectionDescription } from "../ButtonComponent";
-import hero from "../../../../public/Hero/hero.png";
-import btnImg from "../../../../public/Hero/btnImage.png";
+import hero from "./img/hero.png";
+import { BtnComponent, SectionDescription } from "../ButtonComponent";
+// import btnImg from "../../../../../public/Hero/btnImage.svg";
 
 const Hero = () => {
   return (
@@ -14,25 +14,23 @@ const Hero = () => {
         quality={100}
         priority={true}
         unoptimized
+        alt="hero"
       />
       <div className={styles.contentContainer}>
-        <h1>Saudi Vision 2030</h1>
+        <h1>Setup Your Business in Saudi Arabia</h1>
         <SectionDescription
-          sectionText="A transformative journey towards a vibrant society, a thriving economy, and an ambitious nation."
-          width="34.32539682539682vw"
-          margin="1.3227513227513228vw 0vw 0 0vw"
+          sectionText="Setting up business in KSA might seem hectic without legitimate support. From streamlining the group entities to ensuring high-end corporate governance"
           color="rgba(255,255,255,0.8)"
         />
-      </div>
-      <div className={styles.btnImageContainer}>
-        <Image
-          src={btnImg}
-          className={styles.btnImage}
-          quality={100}
-          priority={true}
-          unoptimized
-          alt="heroBtnImage"
-        />
+        <a href="pages/WhySaudi">
+          <BtnComponent
+            buttonText="Why Saudi"
+            bg="#11215B"
+            arrow={true}
+            color="#ffffff"
+            margin="0 auto"
+          />
+        </a>
       </div>
     </div>
   );

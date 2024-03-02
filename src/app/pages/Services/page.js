@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import styles from "../../styles/servicesPage.module.css";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import Header from "@/app/components/Header/Header";
-import MobileHeader from "@/app/components/MobileHeader/MobileHeader";
-import Container7 from "@/app/components/Container7/Container7";
-import Footer from "@/app/components/Footer/Footer";
-import Container6 from "@/app/components/Container6/Container6";
+import Header from "@/app/components/WhySaudiInner/Header/Header";
+import MobileHeader from "@/app/components/WhySaudiInner/MobileHeader/MobileHeader";
+import Container7 from "@/app/components/WhySaudiInner/Container7/Container7";
+import Footer from "@/app/components/WhySaudiInner/Footer/Footer";
+import Container6 from "@/app/components/WhySaudiInner/Container6/Container6";
 import {
   container2,
   container4,
@@ -17,7 +17,7 @@ import {
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
-import ContactBanner from "@/app/components/ContactBanner/ContactBanner";
+import ContactBanner from "@/app/components/WhySaudiInner/ContactBanner/ContactBanner";
 
 // const Header = dynamic(() => import("@/app/components/Header"));
 // const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));

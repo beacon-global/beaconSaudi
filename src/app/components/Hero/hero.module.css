@@ -17,10 +17,15 @@
 
 .contentContainer h1 {
   color: #ffffff;
+  width: 46.49470899470899vw;
 }
 
 .contentContainer p {
   color: #ffffff;
+  line-height: 1.5740740740740742vw;
+  width: 45.49470899470899vw;
+  font-size: 1.1243386243386242vw;
+  margin: 1.3227513227513228vw 0 1.984126984126984vw 0;
 }
 
 .heroImage {
@@ -57,8 +62,15 @@
     padding: var(--mobileContainerPadding);
   }
 
+  .contentContainer h1 {
+    width: auto;
+  }
+
   .contentContainer p {
     width: 87.2vw !important;
+    line-height: 4.4799999999999995vw;
+    font-size: 3.2vw;
+    margin: 2.666666666666667vw 0 4vw 0;
   }
 
   .btnImage {

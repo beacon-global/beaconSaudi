@@ -66,7 +66,16 @@ const container4 = {
   img: "/Container4/1crop.png",
   btnText: "Contact Us",
   description:
-    "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eu tristique sit congue. Pretium neque eu iaculis auctor ac neque pharetra lectus. Parturient ante nisi enim odio hac. Faucibus integer id malesuada eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. vivamus volutpat eu. Ultricies molestie consequat gravida pulvinar enim quam imperdiet nisl. Libero faucibus eu pretium egestas urna donec ante nunc nunc. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",
+    "The Kingdom of Saudi Arabia is attracting entrepreneurs and investors with its new visa programs, thriving market, and strategic location.",
+  descriptions: [
+    "Premium Residency Program: This program opens doors for entrepreneurs to experience Saudi Arabia's favorable business environment, government support, and strategic location.",
+    "Economic Diversification: The Saudi economy presents exciting opportunities for growth across non-oil sectors, aligning with Vision 2030's goals.",
+    "Ideal Location and Market Potential: Saudi Arabia's position as a regional hub and its large, growing consumer base offer a unique advantage for businesses seeking expansion.",
+  ],
+  // description:
+  //   "Economic Diversification: The Saudi economy presents exciting opportunities for growth across non-oil sectors, aligning with Vision 2030's goals.",
+  // description:
+  //   "Ideal Location and Market Potential: Saudi Arabia's position as a regional hub and its large, growing consumer base offer a unique advantage for businesses seeking expansion.",
 };
 
 const container5 = {

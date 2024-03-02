@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+.statContainer{
+  margin-top: 6.613756613756613vw;
+}
+
 .greenBannerContiner {
   background: #13670b;
   width: 100%;
@@ -315,6 +319,10 @@
 
   .aboutUsHeroContainer p {
     width: auto;
+  }
+
+  .statContainer{
+    margin-top: 10.666666666666668vw;
   }
 
   .greenBannerContiner {

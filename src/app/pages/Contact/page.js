@@ -5,9 +5,9 @@ import styles from "../../styles/contact.module.css";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 import emailjsConfig from "../../../../emailjs.config";
-import Header from "@/app/components/Header/Header";
-import MobileHeader from "@/app/components/MobileHeader/MobileHeader";
-import Footer from "@/app/components/Footer/Footer";
+import Header from "@/app/components/WhySaudiInner/Header/Header";
+import MobileHeader from "@/app/components/WhySaudiInner/MobileHeader/MobileHeader";
+import Footer from "@/app/components/WhySaudiInner/Footer/Footer";
 import {
   BtnComponent,
   CardHeading,
