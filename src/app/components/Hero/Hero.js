@@ -17,18 +17,20 @@ const Hero = () => {
         alt="hero"
       />
       <div className={styles.contentContainer}>
-        <h1>Setup Your Business in Saudi Arabia</h1>
+        <h1>Start Your Business Presence in Saudi Arabia</h1>
         <SectionDescription
-          sectionText="Setting up business in KSA might seem hectic without legitimate support. From streamlining the group entities to ensuring high-end corporate governance"
+          sectionText="Establishing your business in KSA can be overwhelming without proper assistance. From organizing group entities to maintaining rigorous corporate governance, navigating these challenges requires reliable support."
           color="rgba(255,255,255,0.8)"
         />
         <a href="pages/WhySaudi">
           <BtnComponent
-            buttonText="Why Saudi"
+            buttonText="Discover Saudi's Advantages"
             bg="#11215B"
             arrow={true}
             color="#ffffff"
             margin="0 auto"
+            width="23.3333vw"
+            height="4.6375661375661372vw"
           />
         </a>
       </div>

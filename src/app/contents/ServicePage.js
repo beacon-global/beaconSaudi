@@ -88,16 +88,16 @@ const servicePageCard = {
 };
 
 const container2 = {
-  sectionTitle: "Skyrocketing Your Business Development in KSA",
+  sectionTitle: "Accelerating Your Business Growth in KSA",
   description:
-    "Business development in the KSA involves various steps that include sponsorship, visa assistance, trade license, financial support and many other essential aspects necessary for fund and business management. Through in-depth support and collaboration, we guide your business and manage every step of it without making it a mundane task.",
+    "Exploring business development in the KSA involves key steps such as getting sponsorship, handling visas, acquiring trade licenses, and managing finances efficiently. Throughout this process, our dedicated support and teamwork ensure smooth progress, easing you from complex tasks. We carefully manage every aspect of your business journey, aiming to simplify operations and maximize success. With our comprehensive approach, we aim to empower your business to thrive in the dynamic landscape of the KSA.",
   img: "/ServicesPage/1.png",
 };
 
 const container4 = {
   sectionTitle: "Strategising Business To Fit Your Goals",
   description:
-    "Beacon has amazing experience in serving businesses over the years, making it compliant and efficient with the top business strategies for all business owners in the KSA. As a leading business management consultant and the best business set-up provider in KSA, we offer a wide range of business, incorporation, banking, technology, digital marketing, immigration, accounting, tax, and auditing services. Let‘s talk today and get a tailor-made proposal that speaks the essence of your business to leap forward and fulfil your business goals",
+    "Beacon has been dedicated to assisting businesses in KSA, ensuring compliance and efficiency through top-notch business strategies. As a premier business management consultant and the ultimate business setup provider in the region, we offer a comprehensive suite of services, including business incorporation, banking, technology, digital marketing, immigration, accounting, tax, and auditing. Reach out to us today for a personalized proposal tailored to your business needs, and let's propel your business forward to achieve your goals.",
   img: "/ServicesPage/2.webp",
 };
 

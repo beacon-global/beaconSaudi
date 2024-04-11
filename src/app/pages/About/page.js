@@ -116,21 +116,19 @@ function About() {
             />
           </div>
           <p>
-            Beacon has been committed to pushing your business setup plans in
-            KSA into reality with the top business consultancy services in Saudi
-            Arabia. With services based in Jeddah, Riyadh and Dammam, and its
-            prominent services across India and UAE, Beacon carries the legacy
-            of serving clients with immense support. Being a proud entity of
-            Beacon Global, we promise to contribute to your business with
-            holistic business incorporation and business consulting services
-            that expand the scope of your business. We also provide exceptional
-            company formation, and legal, financial, and technological
-            assistance to make the business establishment and its
-            post-operations streamlined. With high-end project management
-            capabilities and a well-laid plan of business operations, we make
-            sure your business excels in KSA most efficiently. We also offer
-            accounting, tax and audit, digital marketing and various other
-            related services that can evolve and empower your business.
+            We are committed to transforming your business aspirations into reality
+            with premier consultancy services across Saudi Arabia. With established
+            offices in Jeddah, Riyadh, Dammam, and Jazan, as well as a notable presence
+            in Qatar, the UAE, and India, we pride ourselves on delivering unparalleled
+            client support. As part of the Beacon Global network, we are dedicated to
+            expanding your business's horizons through comprehensive business incorporation
+            and consulting services. Our offerings encompass exceptional company formation,
+            alongside legal, financial, and technological assistance, ensuring seamless establishment
+            and ongoing operations. Leveraging advanced project management capabilities and
+            meticulous business operation planning, we guarantee optimal efficiency for
+            your ventures in Saudi Arabia. Moreover, we offer accounting, tax, audit, digital
+            marketing, and various other related services to empower your business's growth
+            and evolution.
           </p>
         </div>
 

@@ -14,6 +14,7 @@ import {
   servicePageCard,
 } from "@/app/contents/ServicePage";
 import {
+  BtnComponent,
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
@@ -48,7 +49,17 @@ function Services() {
             <SectionDescription
               sectionText={container2.description}
               color="#58595B"
+              padding="1.3227513227513228vw"
             />
+            <a href="../../pages/WhySaudi">
+              <BtnComponent
+                buttonText="Vision 2030"
+                bg="#11215B"
+                arrow={true}
+                color="#ffffff"
+                margin="0 auto"
+              />
+            </a>
           </div>
           <div className={styles.servicePageImageContainer2}>
             <Image
@@ -116,7 +127,17 @@ function Services() {
               sectionText={container4.description}
               color="#58595B"
               width="36.11111111111111vw"
+              padding="1.3227513227513228vw"
             />
+            <a href="../../pages/blogs">
+              <BtnComponent
+                buttonText="Resources"
+                bg="#11215B"
+                arrow={true}
+                color="#ffffff"
+                margin="0 auto"
+              />
+            </a>
           </div>
         </div>
         <Container7 />

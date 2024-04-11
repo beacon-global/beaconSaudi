@@ -1,5 +1,5 @@
 const container6 = {
-  sectionName: "Process",
+  sectionName: "Expertise",
   sectionTitle: "Navigate Your Business Journey in Saudi Arabia",
   btnText: "Explore More",
   cardData: [
@@ -47,7 +47,7 @@ const container4 = {
   img: "/MainPage/Container4/1.png",
   btnText: "Explore More",
   description:
-    "Saudi Arabia is one of the most competitive and dominant countries in the Middle East which has great investment potential. With an extensive scope for innovation, we provide services that encourage running a successful business with specialized guidance on administrative, legal, technological, and marketing aspects. We give you the right business incorporation assistance with necessary guidance through the entire process while making sure it adheres to all the required steps efficiently. This encourages you to exercise ease of doing business, enjoy 100% business ownership, leverage financial and regulatory incentives, and experience streamlined processes. Being your trusted incorporation experts, we take true responsibility for your business setup and establish your company in Saudi Arabia.",
+    "Feel reassured, we're here to guide you through. In the heart of the Middle East, Saudi Arabia stands as a beacon of opportunity. Our tailored services cover all aspects of business, from administration to legalities, technology, and marketing. Rest assured, we'll walk you through the incorporation process seamlessly, ensuring compliance and efficiency every step of the way. Enjoy the freedom of full ownership, along with access to financial incentives. With us by your side, setting up your company in Saudi Arabia is a worry-free journey.",
 };
 
 const container2 = {

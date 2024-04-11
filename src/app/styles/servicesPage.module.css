@@ -1,5 +1,5 @@
 .dafualt {
-  --font-Gellix: "Gellix", sans-serif;
+  /* --font-Gellix: "Gellix", sans-serif; */
   --containerPadding: 0 9.920634920634921vw;
   --containerMarginTop: 9.920634920634921vw;
   --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
@@ -39,6 +39,7 @@
   width: 38.095238095238095vw;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .container3 {
@@ -136,6 +137,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 767px) {
