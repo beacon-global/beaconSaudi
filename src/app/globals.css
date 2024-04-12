@@ -141,6 +141,15 @@ li {
   position: relative;
   overflow: hidden;
 }
+.btnContainer-m {
+  height: 3.3203125vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.2552083333333335vw;
+  position: relative;
+  overflow: hidden;
+}
 
 .btnFill .visibleWrapperContainer .bottomVisibleContainer h5 {
   color: white;
@@ -216,6 +225,14 @@ li {
 }
 
 .btnContainer:hover .bottomVisibleContainer {
+  transform: translate(-54%, -65%);
+}
+
+.btnContainer-m:hover .topVisibleContainer {
+  transform: translate(-54%, -250%);
+}
+
+.btnContainer-m:hover .bottomVisibleContainer {
   transform: translate(-54%, -65%);
 }
 
@@ -418,7 +435,13 @@ li {
   }
 
   .btnContainer {
-    width: 40vw !important;
+    width: 45vw !important;
+    height: 10.666666666666668vw !important;
+    border-radius: 13.333333333333334vw;
+  }
+
+  .btnContainer-m {
+    width: 70vw !important;
     height: 10.666666666666668vw !important;
     border-radius: 13.333333333333334vw;
   }

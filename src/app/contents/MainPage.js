@@ -81,19 +81,31 @@ const container2 = {
 const clientsData = {
   cardData: [
     {
-      message:
-        "“I waited to completely finish the course to rate it. This was my first approach to python, i am an excel and VBA user. The professor has an excellent way to explain it and a lot or order and organization. I really recommend it.”",
-      name: "Usman Tariq",
-      designation: "Riyadh, KSA",
-      img: "/MainPage/profilePic3.webp",
+      message:"“Working with Beacon made setting up our business in Saudi Arabia hassle-free. Their comprehensive services covered everything from paperwork to logistics, ensuring a smooth and successful expansion.”",
+      name: "Mohammed Al-Saud",
+      designation: "Jeddah, KSA",
+      img: "/MainPage/profilePic1.webp",
     },
     {
       message:
-        "“I waited to completely finish the course to rate it. This was my first approach to python, i am an excel and VBA user. The professor has an excellent way to explain it and a lot or order and organization. I really recommend it.”",
-      name: "Hassan",
-      designation: "Jeddah, KSA",
-      img: "/MainPage/profilePic4.webp",
+        "“Working with Beacon felt like having an extended team member. Their transparency and unwavering commitment made the partnership seamless and productive.”",
+      name: "Abdul Rasheed",
+      designation: "Dammam, KSA",
+      img: "/MainPage/profilePic2.webp",
     },
+    {
+      message:
+        "“Beacon's guidance and expertise have been instrumental in our business's growth and success. Their tailored solutions and dedicated support have exceeded our expectations.”",
+      name: "Reem Abdullah",
+      designation: "Riyadh, KSA",
+      img: "/MainPage/profilePic5.webp",
+    },
+    {
+      message:"“Working with Beacon felt like having an extended team member. Their transparency and unwavering commitment made the partnership seamless and productive.",
+      name: " Ahmed Al-Sayed",
+      designation: "Dubai , UAE",
+      img: "/MainPage/profilePic2.webp",
+    }
   ],
 };
 

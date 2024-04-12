@@ -31,6 +31,7 @@ const Hero = () => {
             margin="0 auto"
             width="23.3333vw"
             height="4.6375661375661372vw"
+            width_m={"100%"}
           />
         </a>
       </div>
