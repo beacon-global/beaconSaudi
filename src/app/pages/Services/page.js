@@ -128,6 +128,7 @@ function Services() {
               color="#58595B"
               width="36.11111111111111vw"
               padding="1.3227513227513228vw"
+              margin={"0 0 3.3227513227513228vw 0"}
             />
             <a href="../../pages/blogs">
               <BtnComponent
