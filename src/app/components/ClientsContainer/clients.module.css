@@ -70,6 +70,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .testimonialImageButtonContainer {
@@ -83,7 +84,7 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 1.984126984126984vw;
-  width: 35.396825396825395vw;
+  width: 25.396825396825395vw;
   border-radius: 0.6613756613756614vw;
 }
 
@@ -135,6 +136,7 @@
   display: flex;
   align-items: center;
   gap: 0.992063492063492vw;
+  margin-top: auto;
 }
 
 .testimonialMainContainer hr {
@@ -146,6 +148,7 @@
 .leftButton,
 .rightButton {
   color: #fff;
+  position: absolute;
   font-size: 1.0582010582010581vw;
   width: 3.3068783068783065vw;
   aspect-ratio: 1/1;
@@ -155,6 +158,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+}
+.leftButton {
+  left: 5vw;
+}
+.rightButton {
+  right: 5vw;
 }
 
 @media only screen and (max-width: 767px) {
@@ -220,6 +230,13 @@
   .rightButton,
   .leftButton {
     display: none;
+    position: relative;
+  }
+  .leftButton{
+    margin-right: 6vw;
+  }
+  .rightButton{
+    margin-left: 6vw;
   }
 
   .arrowButtonsTest {

@@ -19,7 +19,7 @@ function Clients() {
 
   const showNextCard = () => {
     setCurrentCardIndex((prevIndex) =>
-      prevIndex === testimonialData.length - 1 ? 0 : prevIndex + 1
+      prevIndex === testimonialData.length - 2 ? 0 : prevIndex + 1
     );
     console.log(currentCardIndex);
   };
@@ -102,15 +102,15 @@ function Clients() {
                 className={styles.testimonialProfile}
                 style={{
                   transform: isMobileScreen
-                    ? `translateX(-${currentCardIndex * 110}%)`
-                    : "none",
+                    ? `translateX(-${currentCardIndex * 104}%)`
+                    : `translateX(-${currentCardIndex * 30}%)`,
                 }}
               >
                 <div className={styles.testimonialMessage}>
                   <SectionDescription sectionText={data.message} />
                 </div>
                 <div className={styles.testimonialCardBottom}>
-                  <div className={styles.testiImg}>
+                  {/* <div className={styles.testiImg}>
                     <Image
                       src={data.img}
                       width={100}
@@ -121,7 +121,7 @@ function Clients() {
                       alt="bgImage"
                       className={styles.bigImage}
                     />
-                  </div>
+                  </div> */}
                   <div>
                     <p className={styles.profileName}>{data.name}</p>
                     <p className={styles.profileDesignation}>
