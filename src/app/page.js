@@ -21,7 +21,7 @@ export default function Home() {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      const whiteScreen = document.querySelector(".whiteScreen");
+      const whiteScreen = document.querySelector(".whiteScree");
       if (whiteScreen) {
         // whiteScreen.style.opacity = '0';
         whiteScreen.classList.add("hidden");
@@ -40,12 +40,12 @@ export default function Home() {
   }, [textOptions.length]);
   return (
     <>
-      <div className="whiteScreen">
+      <div className={`${styles.whiteScreen} whiteScree`}>
         <LoadingCircle />
-        <div className="changeTextContainer">
-          <h1 className="spinnerText">Your Global Advisory Partner For</h1>
-          <h1 className="changeText">
-            <span className="spinnerText"> Business </span>{" "}
+        <div className={styles.changeTextContainer}>
+          <h1 className={styles.spinnerText}>Your Global Advisory Partner For</h1>
+          <h1 className={styles.changeText}>
+            <span className={styles.spinnerText}> Business </span>{" "}
             {textOptions[textIndex]}
           </h1>
         </div>
