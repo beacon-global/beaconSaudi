@@ -29,11 +29,12 @@
 
 .whatsappChat {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 7vw;
+  right: 1.2vw;
   z-index: 1000;
   background-color: #fff;
   width: 24.869791666666664vw;
+  border-radius: 10px;
 }
 
 .closeButton {
@@ -68,6 +69,7 @@
   background-color: #11215b;
   padding: 1.3020833333333335vw;
   position: relative;
+  border-radius: 10px 10px 0 0;
 }
 
 .topCard h3 {

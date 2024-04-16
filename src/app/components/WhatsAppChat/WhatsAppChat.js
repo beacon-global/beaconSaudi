@@ -49,15 +49,29 @@ const WhatsAppChat = () => {
         onClick={handleChatIconClick}
       >
         <div className={styles.imgContainer}>
-          <Image
-            src="/whatsapp.svg"
-            width={70}
-            height={70}
-            alt="ImageService"
-            quality={100}
-            priority={true}
-            unoptimized
-          />
+          {
+            isCardVisible ? (
+              <Image
+                src="/close.svg"
+                width={70}
+                height={70}
+                alt="ImageService"
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+            ) : (
+              <Image
+                src="/whatsapp.svg"
+                width={70}
+                height={70}
+                alt="ImageService"
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+            )
+          }
         </div>
       </div>
       <div
@@ -70,12 +84,12 @@ const WhatsAppChat = () => {
         <div>
           {isCardVisible && (
             <div className={styles.topCard}>
-              <div
+              {/* <div
                 className={styles.closeButton}
                 onClick={() => setIsCardVisible(false)}
               >
                 &times;
-              </div>
+              </div> */}
               <h3>Hello...</h3>
               <p>
                 Chat with us! Simply choose an office contact from the list
