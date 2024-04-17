@@ -26,7 +26,7 @@ function Clients() {
 
   const showPreviousCard = () => {
     setCurrentCardIndex((prevIndex) =>
-      prevIndex === 0 ? testimonialData.length - 1 : prevIndex - 1
+      prevIndex === 0 ? testimonialData.length - 2 : prevIndex - 1
     );
     console.log(currentCardIndex);
   };
@@ -103,7 +103,8 @@ function Clients() {
                 style={{
                   transform: isMobileScreen
                     ? `translateX(-${currentCardIndex * 104}%)`
-                    : `translateX(-${currentCardIndex * 30}%)`,
+                    : `translateX(-${currentCardIndex * 105}%)`,
+                    transition: 'transform 0.5s ease',
                 }}
               >
                 <div className={styles.testimonialMessage}>
