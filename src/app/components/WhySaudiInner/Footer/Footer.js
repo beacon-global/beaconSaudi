@@ -105,7 +105,7 @@ function Footer() {
           </div>
         </div>
         <div className={styles.footerSocialContainer}>
-          <a href="">
+        <a href="https://wa.me/+971568352250"  target="_blank">
             <Image
               quality={100}
               priority={true}
@@ -129,7 +129,7 @@ function Footer() {
               alt="ImageFooter4"
             />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/people/Beacon-Management-Consultants/100086432425064/?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
             <Image
               quality={100}
               priority={true}
