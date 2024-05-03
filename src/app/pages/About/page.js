@@ -225,7 +225,7 @@ function About() {
                   </div>
                 </div>
                 <div className={styles.cardContent}>
-                  <div>
+                  <div className={styles.cardsingle}>
                     <h1>Destination Choice</h1>
                     <p>
                       Enjoy the business incorporation options in the iconic
@@ -233,7 +233,7 @@ function About() {
                       repatriation, and ownership.
                     </p>
                   </div>
-                  <div>
+                  <div className={styles.cardsingle}>
                     <h1>Tax Benefits</h1>
                     <p>
                       Get tax advantages to let your investment get promoted
@@ -241,7 +241,7 @@ function About() {
                       establishment in KSA.
                     </p>
                   </div>
-                  <div>
+                  <div className={styles.cardsingle}>
                     <h1>Digital Transformation</h1>
                     <p>
                       Heading towards the technology-led future, we offer high

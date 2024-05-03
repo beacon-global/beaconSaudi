@@ -19,14 +19,14 @@ function Clients() {
 
   const showNextCard = () => {
     setCurrentCardIndex((prevIndex) =>
-      prevIndex === testimonialData.length - 2 ? 0 : prevIndex + 1
+      isMobileScreen ? prevIndex === testimonialData.length - 1 ? 0 : prevIndex + 1 : prevIndex === testimonialData.length - 3 ? 0 : prevIndex + 1
     );
     console.log(currentCardIndex);
   };
 
   const showPreviousCard = () => {
     setCurrentCardIndex((prevIndex) =>
-      prevIndex === 0 ? testimonialData.length - 2 : prevIndex - 1
+      isMobileScreen ? prevIndex === 0 ? testimonialData.length - 1 : prevIndex - 1 : prevIndex === 0 ? testimonialData.length - 3 : prevIndex - 1
     );
     console.log(currentCardIndex);
   };
@@ -78,12 +78,12 @@ function Clients() {
         <SectionTitle sectionText="Our core partners" />
       </div>
       {/* <div className={styles.clientsImgContainer}> */}
-        <LogoSlider
-          imageSources={repeatedImageSources}
-          initialAnimateValue="-160%"
-          hoverDuration="180"
-          duration="100"
-        />
+      <LogoSlider
+        imageSources={repeatedImageSources}
+        initialAnimateValue="-160%"
+        hoverDuration="180"
+        duration="100"
+      />
       {/* </div> */}
       <div className={styles.testimonialMainContainer}>
         <div className={styles.businessContentContainer}>
@@ -102,9 +102,9 @@ function Clients() {
                 className={styles.testimonialProfile}
                 style={{
                   transform: isMobileScreen
-                    ? `translateX(-${currentCardIndex * 104}%)`
-                    : `translateX(-${currentCardIndex * 105}%)`,
-                    transition: 'transform 0.5s ease',
+                    ? `translateX(${(currentCardIndex * -104) + 105}%)`
+                    : `translateX(-${currentCardIndex * 108}%)`,
+                  transition: 'transform 0.5s ease',
                 }}
               >
                 <div className={styles.testimonialMessage}>

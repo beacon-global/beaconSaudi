@@ -117,7 +117,7 @@ function Footer() {
               alt="ImageFooter3"
             />
           </a>
-          <a href="https://instagram.com/beaconglobal.co?igshid=OGQ5ZDc2ODk2ZA==">
+          <a href="https://www.instagram.com/beaconconsultants">
             <Image
               quality={100}
               priority={true}

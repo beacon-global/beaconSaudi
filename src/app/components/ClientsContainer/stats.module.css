@@ -60,7 +60,7 @@
   .statsContiner {
     flex-wrap: wrap;
     gap: 8vw;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 }

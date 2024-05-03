@@ -89,21 +89,21 @@ const clientsData = {
     {
       message:
         "“Working with Beacon felt like having an extended team member. Their transparency and unwavering commitment made the partnership seamless and productive.”",
-      name: "Abdul Rasheed",
+      name: "Ahmed Al-Sayed",
       designation: "Dammam, KSA",
       img: "/MainPage/profilePic4.webp",
     },
     {
       message:
         "“Beacon's guidance and expertise have been instrumental in our business's growth and success. Their tailored solutions and dedicated support have exceeded our expectations.”",
-      name: "Reem Abdullah",
-      designation: "Riyadh, KSA",
+      name: "Abdul Rasheed",
+      designation: "Dammam, KSA",
       img: "/MainPage/profilePic4.webp",
     },
     {
-      message:"“Working with Beacon felt like having an extended team member. Their transparency and unwavering commitment made the partnership seamless and productive.",
-      name: " Ahmed Al-Sayed",
-      designation: "Dubai , UAE",
+      message:"“Choosing Beacon was one of the best decisions we made for our business. Their strategic insights and proactive approach have been pivotal in our journey towards success",
+      name: "Reem Abdullah",
+      designation: " Riyadh, KSA",
       img: "/MainPage/profilePic4.webp",
     }
   ],
