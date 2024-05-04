@@ -104,6 +104,10 @@ li {
   line-height: 1.6666666666666667vw;
 }
 
+textarea{
+  font-family: var(--font-Sora);
+}
+
 .linksText {
   font-weight: 400;
   color: #000;

@@ -116,7 +116,7 @@ function Contact() {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                placeholder="your number here"
+                placeholder="Your number here"
               />
             </div>
             <div>
@@ -276,7 +276,7 @@ function Contact() {
             </div>
 
             <div className={styles.contactCard}>
-              <a href="https://maps.app.goo.gl/vWfGvAjAcHxV9AUT9">
+              <a href="https://maps.app.goo.gl/kgx1cZCJPshBvibG9">
                 <div className={styles.contactImgContainer}>
                   <Image
                     src="/ContactPage/1.svg"

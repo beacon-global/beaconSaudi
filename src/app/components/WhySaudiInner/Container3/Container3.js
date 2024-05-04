@@ -30,7 +30,7 @@ const Container3 = () => {
             <div className={styles.cardContent}>
               <CardHeading
                 sectionText={data.cardHeading}
-                padding="0 0 0.992063492063492vw 0"
+                padding="0 0 0.392063492063492vw 0"
                 color="#fff"
               />
               <SectionDescription

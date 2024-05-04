@@ -130,9 +130,9 @@ function Services() {
               padding="1.3227513227513228vw"
               margin={"0 0 3.3227513227513228vw 0"}
             />
-            <a href="../../pages/blogs">
+            <a href="../../pages/Contact">
               <BtnComponent
-                buttonText="Resources"
+                buttonText="Get In Touch"
                 bg="#11215B"
                 arrow={true}
                 color="#ffffff"
