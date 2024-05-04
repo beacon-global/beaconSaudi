@@ -119,7 +119,7 @@ function About() {
             We are committed to transforming your business aspirations into reality
             with premier consultancy services across Saudi Arabia. With established
             offices in Jeddah, Riyadh, Dammam, and Jazan, as well as a notable presence
-            in Qatar, the UAE, and India, we pride ourselves on delivering unparalleled
+            in GCC, we pride ourselves on delivering unparalleled
             client support. As part of the Beacon Global network, we are dedicated to
             expanding your business&apos;s horizons through comprehensive business incorporation
             and consulting services. Our offerings encompass exceptional company formation,
