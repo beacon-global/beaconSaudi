@@ -24,8 +24,6 @@ const Container2 = () => {
               <h3 className={styles.number}>{data.number}</h3>
               <CardHeading sectionText={data.heading} color="#fff" />
               <SectionDescription sectionText={data.description} />
-            </div>
-            <div className={styles.back}>
               <Image
                 src={data.img}
                 width={100}
@@ -36,6 +34,9 @@ const Container2 = () => {
                 alt="bgImage"
                 className={styles.bigImage}
               />
+              <div className={styles.opac}></div>
+            </div>
+            <div className={styles.back}>
             </div>
           </div>
         ))}
