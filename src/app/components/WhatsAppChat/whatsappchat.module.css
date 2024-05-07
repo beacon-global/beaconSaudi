@@ -112,7 +112,7 @@
 @media (max-width: 600px) {
   .whatsappChat {
     width: 85vw;
-    bottom: 25vw;
+    bottom: 22vw;
     right: 2vw;
   }
 
@@ -159,7 +159,7 @@
     width: 100%;
     background-color: #11215B;
     position: relative;
-    padding: 2.666666666666667vw 6.4vw;
+    padding: 4.666666666666667vw 6.4vw;
   }
 
   .topCard h3 {
