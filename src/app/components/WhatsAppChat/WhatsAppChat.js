@@ -84,12 +84,12 @@ const WhatsAppChat = () => {
         <div>
           {isCardVisible && (
             <div className={styles.topCard}>
-              {/* <div
+              <div
                 className={styles.closeButton}
                 onClick={() => setIsCardVisible(false)}
               >
                 &times;
-              </div> */}
+              </div>
               <h3>Hello...</h3>
               <p>
                 Chat with us! Simply choose an office contact from the list
