@@ -79,7 +79,7 @@ function Services() {
 
         <div className={styles.procedures}>
           <Image
-            src="/ServicesPage/3.png"
+            src="/ServicesPage/3.webp"
             width={576}
             height={540}
             layout="responsive"
@@ -90,7 +90,7 @@ function Services() {
             className={styles.proceduresBgImg}
           />
           <Image
-            src="/ServicesPage/4.png"
+            src="/ServicesPage/4.webp"
             width={576}
             height={540}
             layout="responsive"

@@ -3,31 +3,31 @@ const container2 = {
   sectionTitle: "Benefits of Business Setup in KSA",
   cardData: [
     {
-      img: "/Container2/1.png",
+      img: "/Container2/1.webp",
       cardHeading: "Embrace an environment conducive to business growth",
       description:
         "Saudi Arabia recognizes the potential of entrepreneurs and has implemented significant reforms to streamline the business setup process. This translates to faster registration times and simplified procedures, allowing you to focus on your core business objectives.",
     },
     {
-      img: "/Container2/2.png",
+      img: "/Container2/2.webp",
       cardHeading: "Tap into a thriving market",
       description:
         "The Kingdom boasts a population exceeding 34 million, offering a vast consumer base with increasing disposable incomes. This growing middle class presents lucrative opportunities across diverse sectors, making Saudi Arabia an attractive market for businesses of all sizes.",
     },
     {
-      img: "/Container2/3.png",
+      img: "/Container2/3.webp",
       cardHeading: "Become a strategic regional player",
       description:
         "Saudi Arabia's strategic location positions it as a gateway to the entire Middle East market. By establishing your business in the Kingdom, you gain easy access to neighboring countries and pave the way for regional expansion, enabling you to reach a wider audience and enhance your brand reach.",
     },
     {
-      img: "/Container2/4.png",
+      img: "/Container2/4.webp",
       cardHeading: "Leverage government support and incentives",
       description:
         "The Saudi government actively supports business development through a range of initiatives. This includes offering tax exemptions, facilitating access to funding, and providing valuable support for research and development activities. Additionally, the premium residency program provides unique opportunities for entrepreneurs to access the Kingdom's thriving market.",
     },
     {
-      img: "/Container2/5.png",
+      img: "/Container2/5.webp",
       cardHeading: "Invest in a future-proof business environment",
       description:
         "Vision 2030 presents immense opportunities for investors across various sectors. The focus on renewable energy, affordable housing, and infrastructure development opens doors to exciting investment avenues, allowing your business to align with the Kingdom's future vision and unlock its full potential in a dynamic and evolving economy.",
@@ -40,19 +40,19 @@ const container3 = {
   sectionTitle: "A Flourishing Future Awaits",
   cardData: [
     {
-      img: "/Container3/1.png",
+      img: "/Container3/1.webp",
       cardHeading: "A Vibrant Society",
       description:
         "Education and healthcare flourish, empowering all. Cultural expressions paint a vibrant canvas, while sporting arenas echo with cheers. Moderation and tolerance weave a welcoming society.",
     },
     {
-      img: "/Container3/2.png",
+      img: "/Container3/2.webp",
       cardHeading: "A Thriving Economy",
       description:
         "Diversifying beyond oil, Saudi Arabia blossoms as a hub for innovation and global investment. Fertile ground for flourishing industries and empowered entrepreneurs.",
     },
     {
-      img: "/Container3/3.png",
+      img: "/Container3/3.webp",
       cardHeading: "An Ambitious Nation",
       description:
         " Transparency and accountability guide the nation. Infrastructure paves the way for progress, while cutting-edge technology propels the future. A commitment to sustainability ensures a thriving planet.",
@@ -62,8 +62,8 @@ const container3 = {
 
 const container4 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
-  smImg: "/Container4/2.png",
-  img: "/Container4/1crop.png",
+  smImg: "/Container4/2.webp",
+  img: "/Container4/1crop.webp",
   btnText: "Contact Us",
   description:
     "The Kingdom of Saudi Arabia is attracting entrepreneurs and investors with its new visa programs, thriving market, and strategic location.",
@@ -83,31 +83,31 @@ const container5 = {
   sectionTitle: "Pioneering Projects Shaping a Brighter Future",
   cardData: [
     {
-      img: "/Container5/1.png",
+      img: "/Container5/1.webp",
       cardHeading: "The Red Sea",
       description:
         "A transformative tourism development creating a luxurious and sustainable destination on the Red Sea coast.",
     },
     {
-      img: "/Container5/2.png",
+      img: "/Container5/2.webp",
       cardHeading: "NEOM",
       description:
         "A cognitive city of the future powered by cutting-edge technologies and designed to foster human well-being.",
     },
     {
-      img: "/Container5/3.png",
+      img: "/Container5/3.webp",
       cardHeading: "Qiddiya",
       description:
         " An entertainment, sports, and cultural mega-project aiming to become a global tourism and leisure hub.",
     },
     {
-      img: "/Container5/4.png",
+      img: "/Container5/4.webp",
       cardHeading: "The Line",
       description:
         " A revolutionary linear city envisioned as a sustainable urban environment with zero-carbon emissions.",
     },
     {
-      img: "/Container5/5.png",
+      img: "/Container5/5.webp",
       cardHeading: "Amaala",
       description:
         "A wellness tourism destination offering personalized experiences and a commitment to environmental protection.",
@@ -200,7 +200,7 @@ const container7 = {
 };
 
 const contactBanner = {
-  img: "/contact.png",
+  img: "/contact.webp",
   sectionTitle: "Contact Us. It’s Easy.",
   description:
     "If you think we can do the job for you, do not hesitate. Drop us a message/call us for anyservices anywhere in UAE.",

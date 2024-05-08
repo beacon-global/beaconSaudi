@@ -91,7 +91,7 @@ const container2 = {
   sectionTitle: "Accelerating Your Business Growth in KSA",
   description:
     "Exploring business development in the KSA involves key steps such as getting sponsorship, handling visas, acquiring trade licenses, and managing finances efficiently. Throughout this process, our dedicated support and teamwork ensure smooth progress, easing you from complex tasks. We carefully manage every aspect of your business journey, aiming to simplify operations and maximize success. With our comprehensive approach, we aim to empower your business to thrive in the dynamic landscape of the KSA.",
-  img: "/ServicesPage/1.png",
+  img: "/ServicesPage/1.webp",
 };
 
 const container4 = {

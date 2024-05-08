@@ -55,21 +55,21 @@ const container2 = {
   sectionTitle: "Discover Business Opportunities across KSA",
   cardData: [
     {
-      img: "/MainPage/Container2/2.png",
+      img: "/MainPage/Container2/2.webp",
       heading: "JEDDAH",
       number: "01",
       description:
         "Make the most out of the plethora of opportunities that lie in the hands of Jeddah, Saudi Arabia backed by factors like low debt, macroeconomic stability, and high budget surplus. With the worldwide attention for offering an advanced institutional framework, Jeddah is an ideal place to run your business. We travel the extra mile to redefine your business with innovative solutions to cater to your business needs.",
     },
     {
-      img: "/MainPage/Container2/1.png",
+      img: "/MainPage/Container2/1.webp",
       heading: "DAMMAM",
       number: "02",
       description:
         "Discover the significant revenue opportunities, expand your business, improve credibility, and open the doors of business potential through the amazing incorporation possibilities that Dammam has for investors. Take advantage of the surge in demand for unique business ventures in the booming economy and participate in the evolving market to stay ahead of the curve in the region.",
     },
     {
-      img: "/MainPage/Container2/3.png",
+      img: "/MainPage/Container2/3.webp",
       heading: "RIYADH",
       number: "03",
       description:
