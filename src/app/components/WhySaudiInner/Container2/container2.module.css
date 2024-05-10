@@ -26,7 +26,7 @@
   display: flex;
   padding: var(--containerPadding);
   gap: 1.984126984126984vw;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .cards::-webkit-scrollbar {

@@ -130,7 +130,7 @@
   }
 
   .cards {
-    overflow-x: scroll;
+    overflow-x: hidden;
     gap: 4vw;
     padding: var(--mobileContainerPadding);
   }
