@@ -136,15 +136,15 @@
   }
 
   .imgContainer {
-    width: 20vw;
-    height: 20vw;
-    bottom: 22vw;
-    right: 21vw;
+    width: 15vw;
+    height: 15vw;
+    bottom: 15vw;
+    right: 15vw;
   }
 
   .imgContainer img {
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
   }
 
   .chaticon{

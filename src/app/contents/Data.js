@@ -135,7 +135,7 @@ const container6 = {
       img: "03",
       cardHeading: "Secure Your Investment License",
       description:
-        "To officially begin your operations, you will need to obtain a SAGIA License from the Saudi Arabia General Investment Authority. This license empowers you to invest in the country, establish or acquire a company, or set up a foreign branch. Additionally, you will need to apply for a Commercial Registration (CR) certificate from the Ministry of Commerce & Investment.",
+        "To officially begin your operations, you will need to obtain a Investor License from the Ministry of investments (MISA) Saudi Arabia. This license empowers you to invest in the country, establish or acquire a company, or set up a foreign branch. Additionally, you will need to apply for a Commercial Registration (CR) certificate from the Ministry of Commerce & Investment.",
     },
     {
       img: "04",
@@ -147,7 +147,7 @@ const container6 = {
       img: "05",
       cardHeading: "Prepare Legal Documents",
       description:
-        "To formally establish your business, you will need to draft two key documents: the Memorandum of Association (MoA) and the Articles of Association (AoA). These documents outline your company's objectives, ownership structure, and operational framework. Furthermore, you need to appoint a General Director and provide their passport copy for official records.",
+        "To formally establish your business, you will need to draft an Articles of Association (AoA) document. These documents outline your company's objectives, ownership structure, and operational framework. Furthermore, you need to appoint a General Director and provide their passport copy for official records",
     },
     {
       img: "06",
@@ -201,10 +201,10 @@ const container7 = {
 
 const contactBanner = {
   img: "/contact.webp",
-  sectionTitle: "Contact Us. It’s Easy.",
+  sectionTitle: "Have Questions? We Have Answers.",
   description:
-    "If you think we can do the job for you, do not hesitate. Drop us a message/call us for anyservices anywhere in UAE.",
-  btnText: "Contact Us",
+    "If you're ready for unparalleled business solutions, we're here to make it happen. Contact us today for expert consultancy services in Saudia.",
+  btnText: " Schedule a Call",
 };
 
 export {

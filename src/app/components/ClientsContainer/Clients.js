@@ -91,7 +91,7 @@ function Clients() {
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       addAnimation();
     }
-    
+
     return () => {
     };
   }, []);
@@ -109,14 +109,14 @@ function Clients() {
         hoverDuration="180"
         duration="100"
       /> */}
-      
-<div class="scroller" data-direction="left" data-speed="fast">
-  <div class="scroller__inner">
-    {imageSources.map((img, index) => (
-      <img key={index} src={img} alt="" className="logoClients" />
-    ))}
-  </div>
-</div>
+
+      <div class="scroller" data-direction="left" data-speed="fast">
+        <div class="scroller__inner">
+          {imageSources.map((img, index) => (
+            <img key={index} src={img} alt="" className="logoClients" />
+          ))}
+        </div>
+      </div>
       {/* </div> */}
       <div className={styles.testimonialMainContainer}>
         <div className={styles.businessContentContainer}>
