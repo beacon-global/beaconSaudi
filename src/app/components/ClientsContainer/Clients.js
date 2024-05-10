@@ -110,8 +110,8 @@ function Clients() {
         duration="100"
       /> */}
 
-      <div class="scroller" data-direction="left" data-speed="fast">
-        <div class="scroller__inner">
+      <div className="scroller" data-direction="left" data-speed="fast">
+        <div className="scroller__inner">
           {imageSources.map((img, index) => (
             <img key={index} src={img} alt="" className="logoClients" />
           ))}
