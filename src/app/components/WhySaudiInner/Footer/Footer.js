@@ -28,9 +28,9 @@ function Footer() {
             <a href="/pages/Services">
               <p>Services</p>
             </a>
-            {/* <a href="/">
+            <a href="https://bmcglobal.co/pages/blog/">
               <p>Blogs</p>
-            </a> */}
+            </a>
             <a href="/pages/Contact">
               <p>Contact</p>
             </a>
