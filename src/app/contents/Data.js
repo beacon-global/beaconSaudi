@@ -1,6 +1,6 @@
 const container2 = {
   sectionName: "Benefits",
-  sectionTitle: "Benefits of Business Setup in KSA",
+  sectionTitle: "Why Establish Your Business in KSA",
   cardData: [
     {
       img: "/Container2/1.webp",
@@ -61,7 +61,7 @@ const container3 = {
 };
 
 const container4 = {
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
+  sectionTitle: "Key Factors To Start A Business In Saudi Arabia",
   smImg: "/Container4/2.webp",
   img: "/Container4/1crop.webp",
   btnText: "Contact Us",
@@ -108,10 +108,22 @@ const container5 = {
     },
     {
       img: "/Container5/5.webp",
-      cardHeading: "Amaala",
+      cardHeading: "DIRIYAH",
       description:
-        "A wellness tourism destination offering personalized experiences and a commitment to environmental protection.",
+        "Experience over 600 years of authentic Najdi culture and history through a unique heritage experience, educational and cultural opportunities, and world-class residential living at the incredible Diriyah.",
     },
+    {
+      img: "/Container5/5.webp",
+      cardHeading: "The Mukaab",
+      description:
+        " The New Murabba project will redefine the face of Riyadh, establishing a new city district that serves as a gateway to another world. "
+    },
+    {
+      img: "/Container5/5.webp",
+      cardHeading: "Roshn Project",
+      description:
+        " To meet the increasing demand for Saudis to own their own homes, ROSHN is a national community developer that creates exceptional neighborhoods that are welcoming, vibrant, and wonderful places to live. "
+    }
   ],
 };
 

@@ -95,9 +95,9 @@ const container2 = {
 };
 
 const container4 = {
-  sectionTitle: "Strategising Business To Fit Your Goals",
+  sectionTitle: "Crafting Business Strategies for Your Success",
   description:
-    "Beacon has been dedicated to assisting businesses in KSA, ensuring compliance and efficiency through top-notch business strategies. As a premier business management consultant and the ultimate business setup provider in the region, we offer a comprehensive suite of services, including business incorporation, banking, technology, digital marketing, immigration, accounting, tax, and auditing. Reach out to us today for a personalized proposal tailored to your business needs, and let's propel your business forward to achieve your goals.",
+    "Beacon empowers businesses across the GCC region to achieve their goals. We're a one-stop shop for success, offering a comprehensive suite of services from business incorporation and banking to technology, digital marketing, and expert financial support (accounting, tax, audit). We tailor solutions to your specific needs, ensuring compliance and efficiency through top-notch business strategies. Contact us today for a personalized proposal and let's propel your business forward!",
   img: "/ServicesPage/2.webp",
 };
 

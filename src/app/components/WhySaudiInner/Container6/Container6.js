@@ -24,7 +24,7 @@ const Container6 = ({ data, servicePage }) => {
       style={{ marginTop: servicePage && "6.613756613756613vw" }}
     >
       <div className={styles.title}>
-        {servicePage ? "" : <SectionName sectionText={data.sectionName} />}
+        {/* {servicePage ? "" : <SectionName sectionText={data.sectionName} />} */}
         <SectionTitle
           sectionText={data.sectionTitle}
           padding="0.6613756613756614vw 0 4.62962962962963vw 0"

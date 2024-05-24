@@ -116,19 +116,16 @@ function About() {
             />
           </div>
           <p>
-            We are committed to transforming your business aspirations into reality
-            with premier consultancy services across Saudi Arabia. With established
-            offices in Jeddah, Riyadh, Dammam, and Jazan, as well as a notable presence
-            in GCC, we pride ourselves on delivering unparalleled
-            client support. As part of the Beacon Global network, we are dedicated to
-            expanding your business&apos;s horizons through comprehensive business incorporation
-            and consulting services. Our offerings encompass exceptional company formation,
-            alongside legal, financial, and technological assistance, ensuring seamless establishment
-            and ongoing operations. Leveraging advanced project management capabilities and
-            meticulous business operation planning, we guarantee optimal efficiency for
-            your ventures in Saudi Arabia. Moreover, we offer accounting, tax, audit, digital
-            marketing, and various other related services to empower your business&apos;s growth
-            and evolution.
+            Partnering with your vision, we at beacon transform business aspirations into
+            thriving realities across the Middle East. With established offices in Jeddah,
+            Riyadh, Dammam, and Jazan, as well as a notable presence in GCC, we pride ourselves on
+            delivering unparalleled client support. As part of the Beacon Global network, we are dedicated to
+            expanding your business&apos;s horizons through comprehensive business incorporation and consulting services.
+            Our offerings encompass exceptional company formation, alongside legal, financial, and technological assistance,
+            ensuring seamless establishment and ongoing operations. Leveraging advanced project management capabilities and
+            meticulous business operation planning, we guarantee optimal efficiency for your ventures in Saudi Arabia.
+            Moreover, we offer accounting, tax, audit, digital marketing, and various other related services to empower
+            your business&apos;s growth and evolution. Your long-term success is our priority.
           </p>
         </div>
 
@@ -138,14 +135,14 @@ function About() {
 
         <div className={styles.aboutUsContainer2}>
           <h2 className="businessDesc">
-            Ace Business Setup in KSA With Beacon
+            Effortless KSA Company Formation with Beacon&apos;s Expertise
           </h2>
           <h2
             style={{ textAlign: "center" }}
             className={`${styles.mBusinessDesc1} mBusinessDesc`}
           >
-            Ace Business Setup in KSA
-            <br /> With Beacon
+            Effortless KSA Company Formation<br /> with Beacon&apos;s Expertise
+
           </h2>
           <div className={styles.mobilePaddingCard}>
             <div className={styles.cardMainContainer}>
@@ -288,7 +285,7 @@ function About() {
         <div className={styles.aboutUscontainer4}>
           {" "}
           <h2 className={`${styles.aboutPageHeading} businessDesc`}>
-            The benefits of working with us
+            Why Choose Us?
           </h2>
           <div className={styles.cvCard}>
             {cvData.map((data, index) => (

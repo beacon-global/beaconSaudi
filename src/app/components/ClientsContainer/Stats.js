@@ -68,7 +68,7 @@ function Stats({ useBackgroundImage, isMainPage }) {
               count1: 1000, // Your final values here
               count2: 500,
               count3: 3,
-              count4: 5,
+              count4: 7,
             };
 
             animateValue("count1", finalCounts.count1, options, setCount1);

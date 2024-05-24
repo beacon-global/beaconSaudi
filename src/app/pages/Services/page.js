@@ -53,7 +53,7 @@ function Services() {
             />
             <a href="../../pages/WhySaudi">
               <BtnComponent
-                buttonText="Vision 2030"
+                buttonText="Explore more"
                 bg="#11215B"
                 arrow={true}
                 color="#ffffff"

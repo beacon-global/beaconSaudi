@@ -47,7 +47,7 @@ const container4 = {
   img: "/MainPage/Container4/1.png",
   btnText: "Explore More",
   description:
-    "Feel reassured, we're here to guide you through. In the heart of the Middle East, Saudi Arabia stands as a beacon of opportunity. Our tailored services cover all aspects of business, from administration to legalities, technology, and marketing. Rest assured, we'll walk you through the incorporation process seamlessly, ensuring compliance and efficiency every step of the way. Enjoy the freedom of full ownership, along with access to financial incentives. With us by your side, setting up your company in Saudi Arabia is a worry-free journey.",
+    "We are here to guide you. At the heart of the Middle East, Saudi Arabia stands as a beacon of opportunity. Our experienced team offers tailored services covering all aspects of business, from administration and legalities to technology and marketing. We ensure a seamless incorporation process, maintaining compliance and efficiency at every step. Enjoy the freedom of full ownership and access to financial incentives. With our local knowledge and reliable support, setting up your company in Saudi Arabia is a straightforward and worry-free journey. Contact us today and let's get started.",
 };
 
 const container2 = {
@@ -59,21 +59,21 @@ const container2 = {
       heading: "JEDDAH",
       number: "01",
       description:
-        "Make the most out of the plethora of opportunities that lie in the hands of Jeddah, Saudi Arabia backed by factors like low debt, macroeconomic stability, and high budget surplus. With the worldwide attention for offering an advanced institutional framework, Jeddah is an ideal place to run your business. We travel the extra mile to redefine your business with innovative solutions to cater to your business needs.",
+        "Jeddah offers a fertile ground for businesses to flourish. Backed by a stable economy with low debt and high budget surplus, coupled with a focus on creating an advanced business environment, Jeddah attracts global attention."
     },
     {
       img: "/MainPage/Container2/1.webp",
       heading: "DAMMAM",
       number: "02",
       description:
-        "Discover the significant revenue opportunities, expand your business, improve credibility, and open the doors of business potential through the amazing incorporation possibilities that Dammam has for investors. Take advantage of the surge in demand for unique business ventures in the booming economy and participate in the evolving market to stay ahead of the curve in the region.",
+        " Get immense opportunities to benefit from the economic growth of Saudi Arabia through the diversification strategies that light up the opportunities for foreign and native businesses. Tap into the power of incorporating your company by extending the processes and establishing your business across the iconic location of Riyadh. "
     },
     {
       img: "/MainPage/Container2/3.webp",
       heading: "RIYADH",
       number: "03",
       description:
-        "Get immense opportunities to benefit from the economic growth of Saudi Arabia through the diversification strategies that light up the opportunities for foreign and native businesses. Tap into the power of incorporating your company by extending the processes and establishing your business across the iconic location of Riyadh, Saudi Arabia, and leverage the growing consumer base of the country.",
+      " Discover the significant revenue opportunities, expand your business, improve credibility, and open the doors of business potential through the amazing incorporation possibilities that Dammam has for investors."
     },
   ],
 };
@@ -81,7 +81,7 @@ const container2 = {
 const clientsData = {
   cardData: [
     {
-      message:"“Working with Beacon made setting up our business in Saudi Arabia hassle-free. Their comprehensive services covered everything from paperwork to best business suggestions, ensuring a smooth and successful expansion.”",
+      message: "“Working with Beacon made setting up our business in Saudi Arabia hassle-free. Their comprehensive services covered everything from paperwork to best business suggestions, ensuring a smooth and successful expansion.”",
       name: "Mohammed Al-Saud",
       designation: "Jeddah, KSA",
       img: "/MainPage/profilePic4.webp",
@@ -101,7 +101,7 @@ const clientsData = {
       img: "/MainPage/profilePic4.webp",
     },
     {
-      message:"“Choosing Beacon was one of the best decisions we made for our business. Their strategic insights and proactive approach have been pivotal in our journey towards success",
+      message: "“Choosing Beacon was one of the best decisions we made for our business. Their strategic insights and proactive approach have been pivotal in our journey towards success",
       name: "Reem Abdullah",
       designation: " Riyadh, KSA",
       img: "/MainPage/profilePic4.webp",
@@ -109,4 +109,4 @@ const clientsData = {
   ],
 };
 
-export { container6, container4, container2 ,clientsData };
+export { container6, container4, container2, clientsData };

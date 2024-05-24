@@ -17,7 +17,7 @@ const Hero = () => {
         alt="hero"
       />
       <div className={styles.contentContainer}>
-        <h1>Saudi Vision 2030</h1>
+        <h1>Beyond the Dunes</h1>
         <SectionDescription
           sectionText="A transformative journey towards a vibrant society, a thriving economy, and an ambitious nation."
           width="34.32539682539682vw"
