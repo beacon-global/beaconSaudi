@@ -23,7 +23,7 @@ const page = () => {
       <Container3 />
       <Container4 />
       <Container5 />
-      <Container6 data={container6} />
+      {/* <Container6 data={container6} /> */}
       <Banner />
       <Container7 />
       <ContactBanner />
