@@ -11,6 +11,7 @@
 }
 
 .container {
+  position: relative;
   margin-top: 8.597883597883598vw;
   padding-right: 0;
 }

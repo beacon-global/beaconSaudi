@@ -9,7 +9,7 @@ import {
 } from "../../ButtonComponent";
 import { container2 } from "@/app/contents/Data";
 import Image from "next/image";
-import ArrowButtons from "../../ArrowButtons";
+import ArrowButtons from "../../ArrowButtons2";
 import { useWindowSize } from "@/app/utils.js/windowSize";
 
 const Container2 = () => {
