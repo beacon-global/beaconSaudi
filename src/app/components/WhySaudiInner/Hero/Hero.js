@@ -16,7 +16,7 @@ const Hero = () => {
         unoptimized
         alt="hero"
       />
-      <div style={{position:"absolute",width:"100%",height:"46.2962962962963vw",backgroundColor:"black",top:0,opacity:0.3}}/>
+      <div className="overlayHero"/>
       <div className={styles.contentContainer}>
         <h1>Beyond the Dunes</h1>
         <SectionDescription

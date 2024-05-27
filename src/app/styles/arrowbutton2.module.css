@@ -30,6 +30,7 @@
 @media only screen and (max-width: 767px) {
 
   .carouselButtonContainer {
+    display: none;
     gap: 4vw;
     width: auto !important;
     position: relative;

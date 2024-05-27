@@ -72,6 +72,7 @@
   }
 
   .card{
+    min-width: 53.333333333333336vw;
     width: 53.333333333333336vw;
     border-radius: 2.666666666666667vw;
   }

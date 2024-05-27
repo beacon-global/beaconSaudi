@@ -15,7 +15,7 @@ const Banner = () => {
         style={{objectFit: "cover" , objectPosition: "top" }}
         alt="banner"
       />
-      <div className="bannerContent">
+      <div className="bannerContent" style={{zIndex:10}}>
         <SectionTitle
           sectionText="A progressive hub for business"
           color="#fff"
@@ -31,6 +31,7 @@ const Banner = () => {
         as tax exemptions, funding access, and aid with research and development initiatives.
         </h3>
       </div>
+      <div style={{position:"absolute",backgroundColor:"black",height:"100%",width:"100%",top:0 ,opacity:0.3,zIndex:0}}/>
     </div>
   );
 };
