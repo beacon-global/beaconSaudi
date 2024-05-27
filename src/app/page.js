@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <Header />
       <MobileHeader />
-      <WhatsAppChat />
+      
       <Hero />
       <Container6 data={container6} />
       <Container4 />

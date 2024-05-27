@@ -1,3 +1,4 @@
+import WhatsAppChat from "./components/WhatsAppChat/WhatsAppChat";
 import "./globals.css";
 import localFont from "next/font/local";
 
@@ -37,14 +38,14 @@ const Sora = localFont({
       weight: "400",
       style: "normal",
       variable: "--font-Sora",
-      display : "swap",
+      display: "swap",
     },
     {
       path: "./fonts/Sora-SemiBold.woff2",
       weight: "600",
       style: "normal",
       variable: "--font-Sora",
-      display : "swap",
+      display: "swap",
     },
   ],
 });
@@ -69,7 +70,10 @@ export default function RootLayout({ children }) {
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />
       </head>
-      <body className={Sora.className}>{children}</body>
+      <body className={Sora.className}>
+        <WhatsAppChat />
+        {children}
+      </body>
     </html>
   );
 }
