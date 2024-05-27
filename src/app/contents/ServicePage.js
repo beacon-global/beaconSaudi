@@ -12,6 +12,8 @@ const servicePageCard = {
         "Limited Liability Company",
         "Multi Country Business Setup",
         "Branch of Foreign Company",
+        "Saudi National Company",
+        "Saudi Establishment"
       ],
     },
     {
@@ -70,6 +72,8 @@ const servicePageCard = {
         "Web Development",
         "Ecommerce Development",
         "App Development",
+        "ERP Solutions",
+        "AI Chatbots & Predictive modeling"
       ],
     },
     {
@@ -82,6 +86,9 @@ const servicePageCard = {
         "Search Engine Marketing (Google Ads)",
         "Social Media Marketing (Meta Ads)",
         "Social Media Management",
+        "Brand profile creation",
+        "Content Marketing",
+        "Digital marketing strategy"
       ],
     },
   ],

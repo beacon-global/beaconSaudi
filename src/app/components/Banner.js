@@ -6,12 +6,13 @@ const Banner = () => {
   return (
     <div className="bannerContainer">
       <Image
-        src="/banner.webp"
+        src="/banner.jpg"
         width={100}
         height={100}
         quality={100}
         priority={true}
         unoptimized
+        style={{objectFit: "cover" , objectPosition: "top" }}
         alt="banner"
       />
       <div className="bannerContent">

@@ -40,7 +40,7 @@ const container3 = {
   sectionTitle: "A Flourishing Future Awaits",
   cardData: [
     {
-      img: "/Container3/1.webp",
+      img: "/Container3/1.jpeg",
       cardHeading: "A Vibrant Society",
       description:
         "Education and healthcare flourish, empowering all. Cultural expressions paint a vibrant canvas, while sporting arenas echo with cheers. Moderation and tolerance weave a welcoming society.",
@@ -52,7 +52,7 @@ const container3 = {
         "Diversifying beyond oil, Saudi Arabia blossoms as a hub for innovation and global investment. Fertile ground for flourishing industries and empowered entrepreneurs.",
     },
     {
-      img: "/Container3/3.webp",
+      img: "/Container3/3.jpg",
       cardHeading: "An Ambitious Nation",
       description:
         " Transparency and accountability guide the nation. Infrastructure paves the way for progress, while cutting-edge technology propels the future. A commitment to sustainability ensures a thriving planet.",

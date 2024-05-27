@@ -26,6 +26,7 @@ const Container3 = () => {
               priority={true}
               unoptimized
               alt={index}
+              style={{ objectFit: "cover", objectPosition: "top"}}
             />
             <div className={styles.cardContent}>
               <CardHeading

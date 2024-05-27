@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./hero.module.css";
 import { SectionDescription } from "../../ButtonComponent";
-import hero from "../../../../../public/Hero/hero.webp";
+import hero from "../../../../../public/Hero/hero.jpg";
 import btnImg from "../../../../../public/Hero/btnImage.svg";
 
 const Hero = () => {
@@ -16,6 +16,7 @@ const Hero = () => {
         unoptimized
         alt="hero"
       />
+      <div style={{position:"absolute",width:"100%",height:"46.2962962962963vw",backgroundColor:"black",top:0,opacity:0.3}}/>
       <div className={styles.contentContainer}>
         <h1>Beyond the Dunes</h1>
         <SectionDescription

@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.6613756613756614vw;
+  overflow: hidden;
 }
 
 .card:hover {
