@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import WhatsAppChat from "./components/WhatsAppChat/WhatsAppChat";
 import "./globals.css";
 import localFont from "next/font/local";
@@ -51,6 +52,8 @@ const Sora = localFont({
 });
 
 export default function RootLayout({ children }) {
+  const router = useRouter();
+  const showWhatsAppChat = router.pathname !== '/Contact';
 
   return (
     <html lang="en">
@@ -71,7 +74,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image:height" content="1024" />
       </head>
       <body className={Sora.className}>
-        <WhatsAppChat />
+        {showWhatsAppChat && <WhatsAppChat />}
         {children}
       </body>
     </html>
