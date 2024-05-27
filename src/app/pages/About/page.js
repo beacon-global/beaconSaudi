@@ -8,6 +8,7 @@ import MobileHeader from "@/app/components/WhySaudiInner/MobileHeader/MobileHead
 import ContactBanner from "@/app/components/WhySaudiInner/ContactBanner/ContactBanner";
 import Footer from "@/app/components/WhySaudiInner/Footer/Footer";
 import Stats from "@/app/components/ClientsContainer/Stats";
+import WhatsAppChat from "@/app/components/WhatsAppChat/WhatsAppChat";
 
 // const Header = dynamic(() => import("@/app/components/Header"));
 // const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
@@ -88,6 +89,7 @@ function About() {
 
   return (
     <>
+      <WhatsAppChat />
       <Header />
       <MobileHeader />
       <div className={styles.aboutUsMainContainer}>

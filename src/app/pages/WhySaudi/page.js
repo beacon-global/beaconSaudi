@@ -1,4 +1,5 @@
 import Banner from "@/app/components/Banner";
+import WhatsAppChat from "@/app/components/WhatsAppChat/WhatsAppChat";
 import ContactBanner from "@/app/components/WhySaudiInner/ContactBanner/ContactBanner";
 import Container2 from "@/app/components/WhySaudiInner/Container2/Container2";
 import Container3 from "@/app/components/WhySaudiInner/Container3/Container3";
@@ -16,6 +17,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
+      <WhatsAppChat />
       <Header />
       <MobileHeader />
       <Hero />

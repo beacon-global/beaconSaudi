@@ -19,6 +19,7 @@ import {
   SectionTitle,
 } from "@/app/components/ButtonComponent";
 import ContactBanner from "@/app/components/WhySaudiInner/ContactBanner/ContactBanner";
+import WhatsAppChat from "@/app/components/WhatsAppChat/WhatsAppChat";
 
 // const Header = dynamic(() => import("@/app/components/Header"));
 // const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
@@ -35,6 +36,7 @@ function Services() {
 
   return (
     <>
+      <WhatsAppChat />
       <Header />
       <MobileHeader />
       <div className={styles.servicePageMainContainer}>
