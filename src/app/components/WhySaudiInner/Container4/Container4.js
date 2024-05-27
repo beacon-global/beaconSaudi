@@ -61,13 +61,14 @@ const Container4 = () => {
             </div>
           ))}
         </div>
-        {/* <BtnComponent
+        <BtnComponent
           buttonText={container4.btnText}
+          margin="1.984126984126984vw 0 0 0"
           bg="transparrent"
           borderColor="#02040E"
           arrow={true}
           color="#02040E"
-        /> */}
+        />
       </div>
     </div>
   );
