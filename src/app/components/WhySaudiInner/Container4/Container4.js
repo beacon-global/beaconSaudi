@@ -61,7 +61,7 @@ const Container4 = () => {
             </div>
           ))}
         </div>
-        <a href="pages/Contact">
+        <a href="../../pages/Contact">
         <BtnComponent
           buttonText={container4.btnText}
           margin="1.984126984126984vw 0 0 0"
