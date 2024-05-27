@@ -122,7 +122,7 @@ const container5 = {
       img: "/Container5/8.webp",
       cardHeading: "Roshn Project",
       description:
-        " To meet the increasing demand for Saudis to own their own homes, ROSHN is a national community developer that creates exceptional neighborhoods that are welcoming, vibrant, and wonderful places to live. "
+      "ROSHN is a national community developer that creates exceptional neighborhoods that are welcoming, vibrant, and wonderful places to live."
     }
   ],
 };
