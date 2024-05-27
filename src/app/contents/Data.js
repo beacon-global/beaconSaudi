@@ -110,7 +110,7 @@ const container5 = {
       img: "/Container5/6.webp",
       cardHeading: "DIRIYAH",
       description:
-        "Experience over 600 years of authentic Najdi culture and history through a unique heritage experience, educational and cultural opportunities, and world-class residential living at the incredible Diriyah.",
+      "Experience over 600 years of authentic Najdi culture and history through a unique heritage experience. Including a world-class residential living at the incredible Diriyah."
     },
     {
       img: "/Container5/7.webp",

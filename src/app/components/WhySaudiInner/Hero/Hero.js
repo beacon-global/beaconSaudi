@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./hero.module.css";
 import { SectionDescription } from "../../ButtonComponent";
-import hero from "../../../../../public/Hero/hero.jpg";
+import hero from "../../../../../public/Hero/1.jpg";
 import btnImg from "../../../../../public/Hero/btnImage.svg";
 
 const Hero = () => {
