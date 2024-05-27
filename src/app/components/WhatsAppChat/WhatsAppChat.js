@@ -5,10 +5,6 @@ import styles from "./whatsappchat.module.css";
 
 const WhatsAppChat = () => {
   const [isCardVisible, setIsCardVisible] = useState(false);
-  const url = window.location.href.split("/")[4];
-  const showWhatsappChat = url === "Contact" ? false : true;
-
-  if (!showWhatsappChat) return null;
 
   const offices = [
     {
