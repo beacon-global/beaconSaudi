@@ -93,12 +93,11 @@ function Footer() {
               <div className={styles.footerContactTextDetails}>
                 <p>Head Office:</p>
                 <p className={styles.dAddress}>
-                6th floor  le cygne commercial center, 
-                <br /> Kaab Bin Malik Street, Al Olaya, Riyadh 11533
+                Le Cygne Commercial Center, Kaab 
+                <br /> Bin Malik Street, Al Olaya, Riyadh 12611 
                 </p>
                 <p className={styles.mAddress}>
-                6th floor  le cygne commercial center,
-                 Kaab Bin Malik Street, Al Olaya, Riyadh 11533
+                Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya, Riyadh 12611
                 </p>
               </div>
             </a>

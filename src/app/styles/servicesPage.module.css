@@ -180,6 +180,7 @@
     margin-top: var(--mobileContainerMarginTop);
     display: block;
     height: 196.8vw !important;
+    object-fit: contain;
   }
 
   .container4 {
