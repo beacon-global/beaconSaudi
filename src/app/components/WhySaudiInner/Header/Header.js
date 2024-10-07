@@ -66,7 +66,7 @@ function Header() {
             bg="#11215B"
             arrow={true}
             color="#ffffff"
-            width="233px"
+            width="15vw"
             height="50px"
           />
         </a>

@@ -28,7 +28,7 @@ function Footer() {
             <a href="/pages/Services">
               <p>Services</p>
             </a>
-            <a href="https://bmcglobal.co/pages/blog/">
+            <a href="https://beaconarabia.com/pages/blog/">
               <p>Blogs</p>
             </a>
             <a href="/pages/Contact">
@@ -49,7 +49,9 @@ function Footer() {
               height={46}
               alt="ImageFooter2"
             />
-            <div className={`${styles.footerContactTextDetails} ${styles.footerContactTextDetailsEmail}`}>
+            <div
+              className={`${styles.footerContactTextDetails} ${styles.footerContactTextDetailsEmail}`}
+            >
               <p>Email us:</p>
               <a
                 href="mailto:info@bmcglobal.co"
@@ -93,18 +95,19 @@ function Footer() {
               <div className={styles.footerContactTextDetails}>
                 <p>Head Office:</p>
                 <p className={styles.dAddress}>
-                Le Cygne Commercial Center, Kaab 
-                <br /> Bin Malik Street, Al Olaya, Riyadh 12611 
+                  Le Cygne Commercial Center, Kaab
+                  <br /> Bin Malik Street, Al Olaya, Riyadh 12611
                 </p>
                 <p className={styles.mAddress}>
-                Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya, Riyadh 12611
+                  Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya,
+                  Riyadh 12611
                 </p>
               </div>
             </a>
           </div>
         </div>
         <div className={styles.footerSocialContainer}>
-        <a href="https://wa.me/+971568352250"  target="_blank">
+          <a href="https://wa.me/+971568352250" target="_blank">
             <Image
               quality={100}
               priority={true}
@@ -128,7 +131,10 @@ function Footer() {
               alt="ImageFooter4"
             />
           </a>
-          <a href="https://www.facebook.com/people/Beacon-Management-Consultants/100086432425064/?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
+          <a
+            href="https://www.facebook.com/people/Beacon-Management-Consultants/100086432425064/?mibextid=rS40aB7S9Ucbxw6v"
+            target="_blank"
+          >
             <Image
               quality={100}
               priority={true}
