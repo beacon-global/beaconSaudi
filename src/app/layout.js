@@ -5,6 +5,19 @@ export const metadata = {
   title: "Beacon - Setup Your Business in Saudi Arabia",
   description:
     "Beacon is your global business advisory partner who offers you a range of services that enable your business growth and ultimate business transformation. We provide a plethora of services like Business Incorporation, Digital Marketing, Technology, Finance and Accounting, Audit & Taxation and Business Consulting services.",
+  // canonical: "https://ksa.bmcglobal.co",
+  keywords: [
+    "business consulting",
+    "management consulting",
+    "consulting companies",
+    "financial consulting",
+    "business management consulting",
+    "company formation in saudi arabia",
+    "saudi company formation",
+    "registering a company in saudi arabia",
+    "consulting firms in saudi arabia",
+    "business consultants in saudi arabia",
+  ],
   openGraph: {
     title: "Beacon - Setup Your Business in Saudi Arabia",
     description:
@@ -50,7 +63,6 @@ const Sora = localFont({
 });
 
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en">
       <head>
@@ -69,9 +81,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />
       </head>
-      <body className={Sora.className}>
-        {children}
-      </body>
+      <body className={Sora.className}>{children}</body>
     </html>
   );
 }
