@@ -6,6 +6,7 @@ export const metadata = {
   description:
     "Beacon is your global business advisory partner who offers you a range of services that enable your business growth and ultimate business transformation. We provide a plethora of services like Business Incorporation, Digital Marketing, Technology, Finance and Accounting, Audit & Taxation and Business Consulting services.",
   // canonical: "https://ksa.bmcglobal.co",
+  // Keywords
   keywords: [
     "business consulting",
     "management consulting",
