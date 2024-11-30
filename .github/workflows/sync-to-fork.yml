@@ -1,0 +1,29 @@
+name: Sync Fork to Original Repo
+
+on:
+  push:
+    branches:
+      - main  # Trigger the action on push to the main branch
+
+jobs:
+  sync-fork:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the main repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config user.name "lazim-mv"  # Update with your GitHub username
+          git config user.email "lazimlatheef@gmail.com"  # Update with your email
+
+      - name: Add fork as a remote
+        run: |
+          git remote add fork git@github.com:beacon-global/beaconSaudi.git
+          git fetch fork
+
+      - name: Push changes to fork
+        run: |
+          git push fork main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
