@@ -27,4 +27,4 @@ jobs:
         run: |
           git push fork main
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Set the secret token for the GitHub action
