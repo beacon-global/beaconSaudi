@@ -1,29 +1,35 @@
-name: Sync Fork to Original Repo
+name: Sync to Fork
 
 on:
   push:
     branches:
-      - main  # Trigger the action on push to the main branch
+      - main  # Set this to the branch you want to track (e.g., 'main' or 'master')
 
 jobs:
   sync-fork:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout the main repository
-        uses: actions/checkout@v3
 
+    steps:
+      # Checkout the original repository
+      - name: Checkout original repository
+        uses: actions/checkout@v2
+        with:
+          ref: main  # Make sure this matches the branch you want to track
+
+      # Set up Git configuration
       - name: Set up Git
         run: |
-          git config user.name "lazim-mv"  # Update with your GitHub username
-          git config user.email "lazimlatheef@gmail.com"  # Update with your email
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
-      - name: Add fork as a remote
+      # Add the fork remote
+      - name: Add fork remote
         run: |
-          git remote add fork git@github.com:beacon-global/beaconSaudi.git
+          git remote add fork https://github.com/beacon-global/beaconSaudi.git
           git fetch fork
 
-      - name: Push changes to fork
+      # Merge the changes from the original repo to the fork
+      - name: Sync changes to fork
         run: |
-          git push fork main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push fork main --force  # Use --force to update the fork with the changes
+
