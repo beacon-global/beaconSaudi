@@ -3,34 +3,28 @@ name: Sync Fork to beacon-global
 on:
   push:
     branches:
-      - main  # Trigger the action on push to the main branch
+      - main
 
 jobs:
   sync-fork:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repository
+      - name: Checkout the main repository
         uses: actions/checkout@v3
 
       - name: Set up Git
         run: |
-          git config user.name "lazim-mv"  # Set your username for lazim-mv
-          git config user.email "lazimlatheef@gmail.com"  # Set your email for lazim-mv
+          git config user.name "lazim-mv"  # Your name
+          git config user.email "lazimlatheef@gmail.com"  # Your email
 
-      - name: Add remotes (upstream and fork)
+      - name: Add fork as a remote
         run: |
-          git remote add upstream https://github.com/lazim-mv/beaconSaudi.git
-          git remote add fork https://github.com/beacon-global/beaconSaudi.git
-          git fetch upstream
+          git remote add fork git@github.com:beacon-global/beaconSaudi.git
           git fetch fork
-
-      - name: Merge changes from upstream/main into the forked repository
-        run: |
-          git checkout main
-          git merge upstream/main --allow-unrelated-histories
 
       - name: Push changes to fork
         run: |
           git push fork main
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the GH_TOKEN secret for authentication
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the token here
