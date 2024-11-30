@@ -34,6 +34,7 @@ function Contact() {
     country: "",
     subject: "",
     message: "",
+
   });
 
   const handleChange = (e) => {
@@ -41,14 +42,17 @@ function Contact() {
     setFormData({ ...formData, [name]: value });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const transformData = { ...formData, website: "https://www.ksa.beaconarabia.com/" }
+
     emailjs
-      .sendForm(
+      .send(
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
-        e.target,
+        transformData,
         emailjsConfig.userId
       )
       .then((response) => {

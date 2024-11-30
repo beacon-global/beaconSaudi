@@ -5,8 +5,6 @@ export const metadata = {
   title: "Beacon - Setup Your Business in Saudi Arabia",
   description:
     "Beacon is your global business advisory partner who offers you a range of services that enable your business growth and ultimate business transformation. We provide a plethora of services like Business Incorporation, Digital Marketing, Technology, Finance and Accounting, Audit & Taxation and Business Consulting services.",
-  // canonical: "https://ksa.bmcglobal.co",
-  // Keywords
   keywords: [
     "business consulting",
     "management consulting",
@@ -73,7 +71,6 @@ export default function RootLayout({ children }) {
           type="image/svg+xml"
           sizes="16x16 32x32 48x48"
         />
-
         <meta
           property="og:image"
           content="https://ksa.bmcglobal.co/linkImageWhatsApp.png"
@@ -81,8 +78,30 @@ export default function RootLayout({ children }) {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-W2WWJ3TG');
+            `,
+          }}
+        ></script>
       </head>
-      <body className={Sora.className}>{children}</body>
+      <body className={Sora.className}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W2WWJ3TG"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }

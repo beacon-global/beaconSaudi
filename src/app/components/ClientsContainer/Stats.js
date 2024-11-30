@@ -27,12 +27,12 @@ function Stats({ useBackgroundImage, isMainPage }) {
         isMainPage && width >= 600
           ? mainPagePadding
           : isMainPage && width < 600
-          ? "54px 45px"
-          : !isMainPage && width >= 600
-          ? aboutPagePadding
-          : !isMainPage && width < 600
-          ? "8vw 8.666666666666668vw"
-          : "8vw 8.666666666666668vw";
+            ? "54px 45px"
+            : !isMainPage && width >= 600
+              ? aboutPagePadding
+              : !isMainPage && width < 600
+                ? "8vw 8.666666666666668vw"
+                : "8vw 8.666666666666668vw";
 
       // Update the background image URL only if it has changed
       if (newBackgroundImageUrl !== backgroundImageUrl) {
@@ -65,9 +65,9 @@ function Stats({ useBackgroundImage, isMainPage }) {
             };
 
             const finalCounts = {
-              count1: 1000, // Your final values here
-              count2: 500,
-              count3: 3,
+              count1: 1000,
+              count2: 50,
+              count3: 4,
               count4: 7,
             };
 
@@ -102,7 +102,7 @@ function Stats({ useBackgroundImage, isMainPage }) {
     let start = 0;
     const interval = setInterval(() => {
       if (start < end) {
-        if (id === "count1" || id === "count2") {
+        if (id === "count1") {
           start += 10; // Increase by 10 for count1 and count2
         } else {
           start += step; // Increase by 1 for others
@@ -131,11 +131,11 @@ function Stats({ useBackgroundImage, isMainPage }) {
       <div className={styles.statsContiner}>
         <div className={styles.statContainer}>
           <h1>{count1}+</h1>
-          <p>Projects Completed</p>
+          <p>Happy Clients</p>
         </div>
         <div className={styles.statContainer}>
           <h1>{count2}+</h1>
-          <p>Happy Clients</p>
+          <p>Employees</p>
         </div>
         <div className={styles.statContainer}>
           <h1>{count3}+</h1>

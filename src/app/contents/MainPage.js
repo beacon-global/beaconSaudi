@@ -73,7 +73,7 @@ const container2 = {
       heading: "RIYADH",
       number: "03",
       description:
-      " Discover the significant revenue opportunities, expand your business, improve credibility, and open the doors of business potential through the amazing incorporation possibilities that Dammam has for investors."
+        " Discover the significant revenue opportunities, expand your business, improve credibility, and open the doors of business potential through the amazing incorporation possibilities that Dammam has for investors."
     },
   ],
 };
@@ -81,31 +81,43 @@ const container2 = {
 const clientsData = {
   cardData: [
     {
-      message: "“Working with Beacon made setting up our business in Saudi Arabia hassle-free. Their comprehensive services covered everything from paperwork to best business suggestions, ensuring a smooth and successful expansion.”",
-      name: "Mohammed Al-Saud",
-      designation: "Jeddah, KSA",
-      img: "/MainPage/profilePic4.webp",
+      message: "“Working With Beacon Made Setting Up Our Business In Saudi Arabia Hassle-Free. Their Comprehensive Services Covered Everything From Paperwork To Best Business Consultations, Ensuring A Smooth And Successful Expansion”",
+      name: "Lakshmi Narasimha",
+      designation: "General Manager Aptiva Corp",
+      img: "/MainPage/testimonial/2.png",
     },
     {
       message:
-        "“Working with Beacon felt like having an extended team member. Their transparency and unwavering commitment made the partnership seamless and productive.”",
-      name: "Ahmed Al-Sayed",
-      designation: "Dammam, KSA",
-      img: "/MainPage/profilePic4.webp",
+        "“Starting a business abroad was overwhelming until we partnered with Beacon. They explained every detail and made sure our setup complied with all regulations. Their support was invaluable”",
+      name: "AP International",
+      designation: "General Manager",
+      img: "/MainPage/testimonial/1.png",
     },
     {
       message:
-        "“Beacon's guidance and expertise have been instrumental in our business's growth and success. Their tailored solutions and dedicated support have exceeded our expectations.”",
-      name: "Abdul Rasheed",
-      designation: "Dammam, KSA",
-      img: "/MainPage/profilePic4.webp",
+        "“Starting a business in Saudi Arabia seemed complicated, but Beacon simplified it for us. Their expert guidance and attention to detail made all the difference. We felt completely at ease working with them.”",
+      name: "Atir Husain",
+      designation: "GM Physics Wallah",
+      img: "/MainPage/testimonial/6.png",
     },
     {
-      message: "“Choosing Beacon was one of the best decisions we made for our business. Their strategic insights and proactive approach have been pivotal in our journey towards success",
-      name: "Reem Abdullah",
-      designation: " Riyadh, KSA",
-      img: "/MainPage/profilePic4.webp",
-    }
+      message: "“Beacon’s team was professional, transparent, and always one step ahead. They kept me informed throughout the incorporation process and ensured everything was done perfectly. Highly recommend their services”",
+      name: "Naveed",
+      designation: "Managing Partner Mc Square",
+      img: "/MainPage/testimonial/3.png",
+    },
+    {
+      message: "“We faced a critical deadline to finalize our business registration, and Beacon truly went above and beyond. Their team provided 24-hour support to resolve an urgent issue, ensuring we stayed on track. Their dedication and commitment are unmatched!”",
+      name: "Roland Doau",
+      designation: "Managing Partner Media Mania",
+      img: "/MainPage/testimonial/5.png",
+    },
+    {
+      message: "“Beacon exceeded all expectations with their speed and reliability. Their team was always responsive to my questions and made sure our company was set up without delays. A truly professional service I’d recommend to anyone.”",
+      name: "Kaaf Logistics",
+      designation: "General Manager ",
+      img: "/MainPage/testimonial/4.png",
+    },
   ],
 };
 

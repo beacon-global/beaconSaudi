@@ -14,10 +14,19 @@ import WhatsAppChat from "./components/WhatsAppChat/WhatsAppChat";
 import LoadingCircle from "./components/LoadingAnimation/LoadingCircle";
 import { useEffect, useState } from "react";
 import styles from "./styles/loadinganimation.module.css";
+import Popup from "./components/Common/Popup";
 
 export default function Home() {
   const [textIndex, setTextIndex] = useState(0);
   const textOptions = ["Growth", "Success", "Strategy", "Expansion"];
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowPopup(true);
+    }, 5000);
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -40,6 +49,7 @@ export default function Home() {
   }, [textOptions.length]);
   return (
     <>
+      {showPopup && <Popup setShowPopup={setShowPopup} />}
       <div className={`${styles.whiteScreen} whiteScree`}>
         <LoadingCircle />
         <div className={styles.changeTextContainer}>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./footer.module.css";
 import React from "react";
 
-function Footer() {
+function Footer({ contactNumber, email }) {
   return (
     <div className={styles.footerContainer}>
       <div className={styles.topContainer}>
@@ -54,10 +54,10 @@ function Footer() {
             >
               <p>Email us:</p>
               <a
-                href="mailto:info@bmcglobal.co"
+                href={`mailto:${email ? email : "info@bmcglobal.co"}`}
                 style={{ textTransform: "none" }}
               >
-                info@bmcglobal.co
+                {email ? email : "info@bmcglobal.co"}
               </a>
             </div>
           </div>
@@ -76,8 +76,8 @@ function Footer() {
               style={{ whiteSpace: "nowrap" }}
             >
               <p>Call us on:</p>
-              <a href="tel:+ 966 570 807 175">
-                <p>+ 966 570 807 175</p>
+              <a href={`tel:${contactNumber ? contactNumber : "+ 966 570 807 175"}`}>
+                <p>{contactNumber ? contactNumber : "+966 570 807 175"}</p>
               </a>
             </div>
           </div>
@@ -163,7 +163,7 @@ function Footer() {
       <hr className={styles.footerHr} />
       <div className={styles.footerCopyRightContainer}>
         <p className={styles.footerCopyRight}>
-          © 2023 by Beacon Management Consultants CO.LTD | All Right Reserved |
+          © 2024 by Beacon Management Consultants CO.LTD | All Right Reserved |
           Powered by{" "}
           <a href="https://procube.cx/" className={styles.footerLink}>
             procube.cx

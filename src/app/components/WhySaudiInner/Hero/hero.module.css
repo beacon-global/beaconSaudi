@@ -41,6 +41,11 @@
   height: 7.142857142857142vw;
 }
 
+.btnMargin {
+  margin-top: 1.984126984126984vw;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 767px) {
   .container1 {
     margin-top: 21.333333333333336vw;
@@ -64,5 +69,10 @@
   .btnImage {
     width: 21.333333333333336vw;
     height: 21.333333333333336vw;
+  }
+
+  .btnMargin {
+    margin-top: 4vw;
+    cursor: none;
   }
 }
