@@ -89,8 +89,8 @@ const clientsData = {
     {
       message:
         "“Starting a business abroad was overwhelming until we partnered with Beacon. They explained every detail and made sure our setup complied with all regulations. Their support was invaluable”",
-      name: "AP International",
-      designation: "General Manager",
+      name: "Aneesh Wadhwa",
+      designation: "GM AP International",
       img: "/MainPage/testimonial/1.png",
     },
     {
@@ -102,7 +102,7 @@ const clientsData = {
     },
     {
       message: "“Beacon’s team was professional, transparent, and always one step ahead. They kept me informed throughout the incorporation process and ensured everything was done perfectly. Highly recommend their services”",
-      name: "Naveed",
+      name: "Naveed shaukat",
       designation: "Managing Partner Mc Square",
       img: "/MainPage/testimonial/3.png",
     },
@@ -114,8 +114,8 @@ const clientsData = {
     },
     {
       message: "“Beacon exceeded all expectations with their speed and reliability. Their team was always responsive to my questions and made sure our company was set up without delays. A truly professional service I’d recommend to anyone.”",
-      name: "Kaaf Logistics",
-      designation: "General Manager ",
+      name: "Anees Mannathan",
+      designation: "GM Kaaf Logistics",
       img: "/MainPage/testimonial/4.png",
     },
   ],
