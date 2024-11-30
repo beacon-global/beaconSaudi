@@ -3,7 +3,7 @@ name: Sync Fork to beacon-global
 on:
   push:
     branches:
-      - main
+      - main  # Trigger the action on push to the main branch
 
 jobs:
   sync-fork:
@@ -15,12 +15,12 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config user.name "lazim-mv"  # Your name
-          git config user.email "lazimlatheef@gmail.com"  # Your email
+          git config user.name "lazim-mv"  # Set your username for lazim-mv
+          git config user.email "lazimlatheef@gmail.com"  # Set your email for lazim-mv
 
-      - name: Add fork as a remote
+      - name: Add fork as a remote (using HTTPS)
         run: |
-          git remote add fork git@github.com:beacon-global/beaconSaudi.git
+          git remote add fork https://github.com/beacon-global/beaconSaudi.git
           git fetch fork
 
       - name: Push changes to fork
