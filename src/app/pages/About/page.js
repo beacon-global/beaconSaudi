@@ -90,7 +90,7 @@ function About() {
   return (
     <>
       <WhatsAppChat />
-      <Header />
+      <Header phoneNumber="+971 568 352 250" />
       <MobileHeader />
       <div className={styles.aboutUsMainContainer}>
         <h2 className={`${styles.aboutPageHeading} businessDesc`}>
@@ -315,7 +315,8 @@ function About() {
         <ContactBanner />
         {/* </div> */}
         {/* <div className={styles.footerContainer}> */}
-        <Footer />
+        <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com"
+          address="Office #39, 7th Floor,Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" />
         {/* </div> */}
       </div>
     </>

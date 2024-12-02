@@ -73,7 +73,7 @@ function Contact() {
 
   return (
     <>
-      <Header />
+      <Header phoneNumber="+971 568 352 250" />
       <MobileHeader />
       <div className={styles.contactUsContainer}>
         <div className={styles.background}></div>
@@ -321,7 +321,8 @@ function Contact() {
         </div>
 
         <div className={styles.footerContainer}>
-          <Footer />
+          <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com"
+            address="Office #39, 7th Floor,Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" />
         </div>
       </div>
     </>

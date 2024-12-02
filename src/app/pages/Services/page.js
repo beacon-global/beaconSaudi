@@ -37,7 +37,7 @@ function Services() {
   return (
     <>
       <WhatsAppChat />
-      <Header />
+      <Header phoneNumber="+971 568 352 250" />
       <MobileHeader />
       <div className={styles.servicePageMainContainer}>
         <Container6 data={servicePageCard} servicePage={true} />
@@ -145,7 +145,8 @@ function Services() {
         </div>
         <Container7 />
         <ContactBanner />
-        <Footer />
+        <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com"
+          address="Office #39, 7th Floor,Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" />
       </div>
     </>
   );
