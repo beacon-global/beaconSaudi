@@ -42,7 +42,8 @@ const WhatsAppChat = ({ beaconSaudi }) => {
     },
   ]
 
-  const offices = beaconSaudi ? beaconSaudiPage : offices1;
+  // const offices = beaconSaudi ? beaconSaudiPage : offices1;
+  const offices = beaconSaudiPage;
 
   const handleChatIconClick = () => {
     setIsCardVisible(!isCardVisible);

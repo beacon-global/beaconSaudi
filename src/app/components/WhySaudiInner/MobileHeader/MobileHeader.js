@@ -102,14 +102,13 @@ function MobileHeader() {
             {menuList.map((item, index) => (
               <a
                 key={index}
-                className={`linksWrapper linksText ${
-                  pathname !== undefined &&
+                className={`linksWrapper linksText ${pathname !== undefined &&
                   pathname !== null &&
                   pathname !== "" &&
                   pathname === item.href
-                    ? "active"
-                    : ""
-                } ${styles.linksWrapper} ${styles.linksText}`}
+                  ? "active"
+                  : ""
+                  } ${styles.linksWrapper} ${styles.linksText}`}
                 href={item.href}
                 style={{
                   transform: isMenuOpen
@@ -122,11 +121,12 @@ function MobileHeader() {
             ))}
 
             <a
-              href="tel:966 570 807 175"
+              // href="tel:966 570 807 175"
+              href="tel:+971 568 352 250"
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
               <BtnComponent
-                buttonText="+ 966 570 807 175"
+                buttonText="+ 971 568 352 250"
                 header={true}
                 bg="#11215B"
                 arrow={true}
