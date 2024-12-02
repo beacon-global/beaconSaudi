@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./footer.module.css";
 import React from "react";
 
-function Footer({ contactNumber, email }) {
+function Footer({ contactNumber, email, address }) {
   return (
     <div className={styles.footerContainer}>
       <div className={styles.topContainer}>
@@ -95,12 +95,10 @@ function Footer({ contactNumber, email }) {
               <div className={styles.footerContactTextDetails}>
                 <p>Head Office:</p>
                 <p className={styles.dAddress}>
-                  Le Cygne Commercial Center, Kaab
-                  <br /> Bin Malik Street, Al Olaya, Riyadh 12611
+                  {address || "Le Cygne Commercial Center, Kaab Building, Port Saeed Deira, Dubai, UAE"}
                 </p>
                 <p className={styles.mAddress}>
-                  Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya,
-                  Riyadh 12611
+                  {address || "Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya, Riyadh 12611"}
                 </p>
               </div>
             </a>

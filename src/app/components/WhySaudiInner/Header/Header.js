@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./header.module.css";
 import { BtnComponent } from "../../ButtonComponent";
 
-function Header() {
+function Header({ phoneNumber }) {
   const pathname = usePathname();
 
   const menuList = [
@@ -42,14 +42,13 @@ function Header() {
                 >
                   <a
                     href={item.href}
-                    className={`${
-                      pathname !== undefined &&
+                    className={`${pathname !== undefined &&
                       pathname !== null &&
                       pathname !== "" &&
                       pathname === item.href
-                        ? styles.active
-                        : ""
-                    }`}
+                      ? styles.active
+                      : ""
+                      }`}
                   >
                     <div className={styles.listHoverTop}>{item.text}</div>
                     <div className={styles.listHoverBottom}>{item.text}</div>
@@ -59,9 +58,9 @@ function Header() {
             </ul>
           </div>
         </div>
-        <a href="tel:966 570 807 175">
+        <a href={`tel:${phoneNumber || "966570807175"}`}>
           <BtnComponent
-            buttonText="+ 966 570 807 175"
+            buttonText={phoneNumber || "+ 966 570 807 175"}
             header={true}
             bg="#11215B"
             arrow={true}

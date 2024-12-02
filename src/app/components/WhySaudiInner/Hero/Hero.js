@@ -28,7 +28,7 @@ const Hero = () => {
         <a href="/pages/Contact/">
           <div className={styles.btnMargin}>
             <BtnComponent
-              buttonText="Let's Talk"
+              buttonText="Book a Call"
               bg="#11215B"
               arrow={true}
               color="#ffffff"

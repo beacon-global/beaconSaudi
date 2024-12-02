@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "./whatsappchat.module.css";
 
-const WhatsAppChat = () => {
+const WhatsAppChat = ({ beaconSaudi }) => {
   const [isCardVisible, setIsCardVisible] = useState(false);
 
-  const offices = [
+  const offices1 = [
     {
       img: "/office.png",
       name: "",
@@ -32,6 +32,17 @@ const WhatsAppChat = () => {
       location: "Jazan",
     },
   ];
+
+  const beaconSaudiPage = [
+    {
+      img: "/office.png",
+      name: "",
+      number: "+971568352250",
+      location: "Dubai",
+    },
+  ]
+
+  const offices = beaconSaudi ? beaconSaudiPage : offices1;
 
   const handleChatIconClick = () => {
     setIsCardVisible(!isCardVisible);

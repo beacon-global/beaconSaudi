@@ -110,7 +110,7 @@ const container5 = {
       img: "/Container5/6.webp",
       cardHeading: "DIRIYAH",
       description:
-      "Experience over 600 years of authentic Najdi culture and history through a unique heritage experience. Including a world-class residential living at the incredible Diriyah."
+        "Experience over 600 years of authentic Najdi culture and history through a unique heritage experience. Including a world-class residential living at the incredible Diriyah."
     },
     {
       img: "/Container5/7.webp",
@@ -122,7 +122,7 @@ const container5 = {
       img: "/Container5/8.webp",
       cardHeading: "Roshn Project",
       description:
-      "ROSHN is a national community developer that creates exceptional neighborhoods that are welcoming, vibrant, and wonderful places to live."
+        "ROSHN is a national community developer that creates exceptional neighborhoods that are welcoming, vibrant, and wonderful places to live."
     }
   ],
 };
@@ -216,7 +216,7 @@ const contactBanner = {
   sectionTitle: "Have Questions? We Have Answers.",
   description:
     "If you're ready for unparalleled business solutions, we're here to make it happen. Contact us today for expert consultancy services in Saudia.",
-  btnText: " Schedule a Call",
+  btnText: "Book a Call",
 };
 
 export {

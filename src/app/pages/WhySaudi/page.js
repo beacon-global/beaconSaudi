@@ -66,8 +66,8 @@ const Page = () => {
         </div>
       </div>
 
-      <WhatsAppChat />
-      <Header />
+      <WhatsAppChat beaconSaudi="true" />
+      <Header phoneNumber="+971 568 352 250" />
       <MobileHeader />
       <Hero />
       <Container2 />
@@ -79,7 +79,8 @@ const Page = () => {
       <Banner />
       <Container7 />
       <ContactBanner />
-      <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com" />
+      <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com"
+        address="Office #39, 7th Floor,Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" />
     </div>
   );
 };
