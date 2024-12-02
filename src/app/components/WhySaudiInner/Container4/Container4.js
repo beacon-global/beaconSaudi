@@ -62,14 +62,16 @@ const Container4 = () => {
           ))}
         </div>
         <a href="../../pages/Contact">
-        <BtnComponent
-          buttonText={container4.btnText}
-          margin="1.984126984126984vw 0 0 0"
-          bg="transparrent"
-          borderColor="#02040E"
-          arrow={true}
-          color="#02040E"
-        />
+          <div className={styles.btnMargin}>
+            <BtnComponent
+              buttonText={container4.btnText}
+              margin="1.984126984126984vw 0 0 0"
+              bg="transparrent"
+              borderColor="#02040E"
+              arrow={true}
+              color="#02040E"
+            />
+          </div>
         </a>
       </div>
     </div>

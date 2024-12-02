@@ -45,19 +45,19 @@
   justify-content: center;
 }
 
-.descriptionCards{
+.descriptionCards {
   display: flex;
   flex-direction: column;
   gap: 0.6613756613756614vw;
 }
 
-.descriptionCard{
+.descriptionCard {
   display: flex;
   gap: 0.6613756613756614vw;
   align-items: flex-start;
 }
 
-.check{
+.check {
   width: 1.3227513227513228vw;
   height: 1.3227513227513228vw;
 }
@@ -73,47 +73,51 @@
     gap: 8vw;
   }
 
-  .imageContainer{
+  .imageContainer {
     height: 75.73333333333333vw;
   }
 
-  .bigImage{
+  .bigImage {
     width: 66.66666666666666vw;
     height: auto;
   }
 
-  .smallImage{
+  .smallImage {
     width: 30.4vw;
     height: 37.86666666666667vw;
   }
 
-  .contentContainer{
+  .contentContainer {
     text-align: center;
     align-items: center;
   }
-  
-  .contentContainer h2{
+
+  .contentContainer h2 {
     margin-bottom: 4vw !important;
   }
 
-  .contentContainer p{
+  .contentContainer p {
     padding-bottom: 8vw !important;
     text-align: left;
   }
 
-  .descriptionCards{
+  .descriptionCards {
     gap: 4vw;
   }
 
-  .descriptionCard{
+  .descriptionCard {
     gap: 2.666666666666667vw;
   }
 
-  .descriptionCard p{
+  .btnMargin {
+    margin-top: 4vw;
+  }
+
+  .descriptionCard p {
     padding: 0 !important;
   }
 
-  .check{
+  .check {
     width: 4vw;
     height: 4vw;
     margin-top: 0.6613756613756614vw;

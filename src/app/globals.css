@@ -633,9 +633,29 @@ option {
   }
 
   .btnContainer-m {
-    width: 70vw !important;
+    width: 56vw !important;
     height: 10.666666666666668vw !important;
     border-radius: 13.333333333333334vw;
+  }
+
+  .btnContainer-m .rightArrow {
+    width: 6.333333vw !important;
+    height: 3.3vw !important;
+  }
+
+  .whySaudiBtnContainer .btnContainer{
+    width: 41vw !important;
+  }
+
+  .whySaudiBtnContainer .buttonText {
+    line-height: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .whySaudiBtnContainer .rightArrow {
+    width: max-content !important;
+    height: 3.6vw !important;
+    margin-left: 2vw;
   }
 
   .bannerContainer {

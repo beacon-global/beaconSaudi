@@ -26,7 +26,7 @@ const Hero = () => {
           color="rgba(255,255,255,0.8)"
         />
         <a href="/pages/Contact/">
-          <div className={styles.btnMargin}>
+          <div className={`${styles.btnMargin} whySaudiBtnContainer`}>
             <BtnComponent
               buttonText="Book a Call"
               bg="#11215B"
