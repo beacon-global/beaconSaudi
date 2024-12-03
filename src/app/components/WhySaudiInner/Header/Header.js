@@ -58,9 +58,9 @@ function Header({ phoneNumber }) {
             </ul>
           </div>
         </div>
-        <a href={`tel:${phoneNumber || "966570807175"}`}>
+        <a href={`tel:${phoneNumber || "971 527 733 789"}`}>
           <BtnComponent
-            buttonText={phoneNumber || "+ 966 570 807 175"}
+            buttonText={phoneNumber || "+971 527 733 789"}
             header={true}
             bg="#11215B"
             arrow={true}

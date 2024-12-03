@@ -122,11 +122,11 @@ function MobileHeader() {
 
             <a
               // href="tel:966 570 807 175"
-              href="tel:+971 568 352 250"
+              href="tel:+971 527 733 789"
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
               <BtnComponent
-                buttonText="+ 971 568 352 250"
+                buttonText="971 527 733 789"
                 header={true}
                 bg="#11215B"
                 arrow={true}

@@ -37,7 +37,7 @@ const WhatsAppChat = ({ beaconSaudi }) => {
     {
       img: "/office.png",
       name: "",
-      number: "+971568352250",
+      number: "+971527733789",
       location: "Dubai",
     },
   ]

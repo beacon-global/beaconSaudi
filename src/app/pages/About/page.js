@@ -90,7 +90,7 @@ function About() {
   return (
     <>
       <WhatsAppChat />
-      <Header phoneNumber="+971 568 352 250" />
+      <Header phoneNumber="+971 527 733 789" />
       <MobileHeader />
       <div className={styles.aboutUsMainContainer}>
         <h2 className={`${styles.aboutPageHeading} businessDesc`}>

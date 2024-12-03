@@ -76,8 +76,8 @@ function Footer({ contactNumber, email, address }) {
               style={{ whiteSpace: "nowrap" }}
             >
               <p>Call us on:</p>
-              <a href={`tel:${contactNumber ? contactNumber : "+ 966 570 807 175"}`}>
-                <p>{contactNumber ? contactNumber : "+966 570 807 175"}</p>
+              <a href={`tel:${contactNumber ? contactNumber : "+971 527 733 789"}`}>
+                <p>{contactNumber ? contactNumber : "+971 527 733 789"}</p>
               </a>
             </div>
           </div>

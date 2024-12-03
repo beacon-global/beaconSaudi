@@ -67,7 +67,7 @@ const Page = () => {
       </div>
 
       <WhatsAppChat beaconSaudi="true" />
-      <Header phoneNumber="+971 568 352 250" />
+      <Header phoneNumber="+971 527 733 789" />
       <MobileHeader />
       <Hero />
       <Container2 />

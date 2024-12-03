@@ -16,6 +16,7 @@ import { useEffect, useState } from "react";
 import styles from "./styles/loadinganimation.module.css";
 import Popup from "./components/Common/Popup";
 
+
 export default function Home() {
   const [textIndex, setTextIndex] = useState(0);
   const textOptions = ["Growth", "Success", "Strategy", "Expansion"];
@@ -60,7 +61,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <Header phoneNumber="+971 568 352 250" />
+      <Header phoneNumber="+971 527 733 789" />
       <MobileHeader />
       <WhatsAppChat />
       <Hero />
