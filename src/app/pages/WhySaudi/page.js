@@ -1,22 +1,24 @@
-"use client"
+"use client";
 import { useState, useCallback } from 'react';
 import dynamic from 'next/dynamic';
 
-// Dynamic imports
-const Banner = dynamic(() => import("@/app/components/Banner"));
-const Clients = dynamic(() => import("@/app/components/ClientsContainer/Clients"));
-const Popup = dynamic(() => import("@/app/components/Common/Popup"));
-const WhatsAppChat = dynamic(() => import("@/app/components/WhatsAppChat/WhatsAppChat"));
-const ContactBanner = dynamic(() => import("@/app/components/WhySaudiInner/ContactBanner/ContactBanner"));
-const Container2 = dynamic(() => import("@/app/components/WhySaudiInner/Container2/Container2"));
-const Container3 = dynamic(() => import("@/app/components/WhySaudiInner/Container3/Container3"));
-const Container4 = dynamic(() => import("@/app/components/WhySaudiInner/Container4/Container4"));
-const Container5 = dynamic(() => import("@/app/components/WhySaudiInner/Container5/Container5"));
-const Container7 = dynamic(() => import("@/app/components/WhySaudiInner/Container7/Container7"));
-const Footer = dynamic(() => import("@/app/components/WhySaudiInner/Footer/Footer"));
-const Header = dynamic(() => import("@/app/components/WhySaudiInner/Header/Header"));
-const Hero = dynamic(() => import("@/app/components/WhySaudiInner/Hero/Hero"));
-const MobileHeader = dynamic(() => import("@/app/components/WhySaudiInner/MobileHeader/MobileHeader"));
+// Dynamic imports with lazy-loading
+const Banner = dynamic(() => import("@/app/components/Banner"), { ssr: false });
+const Clients = dynamic(() => import("@/app/components/ClientsContainer/Clients"), { ssr: false });
+const Popup = dynamic(() => import("@/app/components/Common/Popup"), { ssr: false });
+const WhatsAppChat = dynamic(() => import("@/app/components/WhatsAppChat/WhatsAppChat"), { ssr: false });
+const ContactBanner = dynamic(() => import("@/app/components/WhySaudiInner/ContactBanner/ContactBanner"), { ssr: false });
+const Container2 = dynamic(() => import("@/app/components/WhySaudiInner/Container2/Container2"), { ssr: false });
+const Container3 = dynamic(() => import("@/app/components/WhySaudiInner/Container3/Container3"), { ssr: false });
+const Container4 = dynamic(() => import("@/app/components/WhySaudiInner/Container4/Container4"), { ssr: false });
+const Container5 = dynamic(() => import("@/app/components/WhySaudiInner/Container5/Container5"), { ssr: false });
+const Container7 = dynamic(() => import("@/app/components/WhySaudiInner/Container7/Container7"), { ssr: false });
+const Footer = dynamic(() => import("@/app/components/WhySaudiInner/Footer/Footer"), { ssr: false });
+const Header = dynamic(() => import("@/app/components/WhySaudiInner/Header/Header"), { ssr: false });
+const MobileHeader = dynamic(() => import("@/app/components/WhySaudiInner/MobileHeader/MobileHeader"), { ssr: false });
+
+// Eagerly load Hero
+import Hero from "@/app/components/WhySaudiInner/Hero/Hero";
 
 const Page = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -29,14 +31,19 @@ const Page = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* Popup */}
       {showPopup && <Popup setShowPopup={setShowPopup} />}
-      
+
+      {/* WhatsApp Chat */}
       <WhatsAppChat beaconSaudi="true" />
+
+      {/* Headers */}
       <Header phoneNumber="+971 527 733 789" />
       <MobileHeader />
-      
+
+      {/* Main content */}
       <main className="flex-grow">
-        <Hero />
+        <Hero /> {/* Hero is eagerly loaded */}
         <Container2 />
         <Container3 onRender={handleContainer3Render} />
         <Container4 />
@@ -46,11 +53,12 @@ const Page = () => {
         <Container7 />
         <ContactBanner />
       </main>
-      
-      <Footer 
-        contactNumber="+971 527 733 789" 
+
+      {/* Footer */}
+      <Footer
+        contactNumber="+971 527 733 789"
         email="mail@beaconarabia.com"
-        address="Office #39, 7th Floor, Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" 
+        address="Office #39, 7th Floor, Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE"
       />
     </div>
   );
