@@ -2,9 +2,17 @@
 const nextConfig = {
     reactStrictMode: true,
     output: "export",
-    images: { unoptimized: true },
+    images: { unoptimized: false },
     trailingSlash: true,
-
+    webpack(config) {
+      // Optimize chunking
+      config.optimization.splitChunks = {
+        chunks: 'all',
+        minSize: 30000,  // Minimum chunk size in bytes
+        maxSize: 200000, // Maximum chunk size in bytes
+      };
+      return config;
+    },
     
   };
   
