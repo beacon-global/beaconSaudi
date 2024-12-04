@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Banner from "@/app/components/Banner";
 import Clients from "@/app/components/ClientsContainer/Clients";
 import Popup from "@/app/components/Common/Popup";
@@ -24,32 +24,32 @@ const Page = () => {
   const textOptions = ["Growth", "Success", "Strategy", "Expansion"];
   const [showPopup, setShowPopup] = useState(false);
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setShowPopup(true);
-    }, 5000);
-    return () => clearTimeout(timeoutId);
-  }, []);
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     setShowPopup(true);
+  //   }, 5000);
+  //   return () => clearTimeout(timeoutId);
+  // }, []);
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      const whiteScreen = document.querySelector(".whiteScree");
-      if (whiteScreen) {
-        // whiteScreen.style.opacity = '0';
-        whiteScreen.classList.add("hidden");
-      }
-    }, 2000);
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     const whiteScreen = document.querySelector(".whiteScree");
+  //     if (whiteScreen) {
+  //       // whiteScreen.style.opacity = '0';
+  //       whiteScreen.classList.add("hidden");
+  //     }
+  //   }, 2000);
 
-    return () => clearTimeout(timeoutId);
-  }, []);
+  //   return () => clearTimeout(timeoutId);
+  // }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTextIndex((prevIndex) => (prevIndex + 1) % textOptions.length);
-    }, 450);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setTextIndex((prevIndex) => (prevIndex + 1) % textOptions.length);
+  //   }, 450);
 
-    return () => clearInterval(interval);
-  }, [textOptions.length]);
+  //   return () => clearInterval(interval);
+  // }, [textOptions.length]);
 
 
   return (
