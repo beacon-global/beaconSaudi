@@ -27,7 +27,7 @@ const Page = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true); // Show the popup after 15 seconds
-    }, 30000); // 30 seconds in milliseconds
+    }, 7000); // 30 seconds in milliseconds
 
     return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
