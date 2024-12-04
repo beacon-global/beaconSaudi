@@ -11,9 +11,8 @@ const Hero = () => {
       <Image
         src={hero}
         className={styles.heroImage}
-        quality={100}
+        quality={75}
         priority={true}
-        unoptimized
         alt="hero"
       />
       <div className="overlayHero" />
