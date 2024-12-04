@@ -1,3 +1,4 @@
+"use client"
 import Banner from "@/app/components/Banner";
 import Clients from "@/app/components/ClientsContainer/Clients";
 import Popup from "@/app/components/Common/Popup";
