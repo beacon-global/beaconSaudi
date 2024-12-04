@@ -3,35 +3,16 @@ import styles from "./container3.module.css";
 import { CardHeading, SectionDescription, SectionName, SectionTitle } from "../../ButtonComponent";
 import { container3 } from "@/app/contents/Data";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
-const Container3 = ({ onScrollPast }) => {
-  const containerRef = useRef(null);
-  // Notify the parent component when Container3 is onScrollPast
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          if (onScrollPast) {
-            onScrollPast(); // Trigger the callback when Container3 comes into view
-          }
-        }
-      },
-      { threshold: 0.1 } // Adjust this value based on when you want to trigger the callback
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, [onScrollPast]);
-
+const Container3 = ({ onRender }) => {
   const cardData = container3.cardData;
+  // Notify the parent component when Container3 is rendered
+  useEffect(() => {
+    if (onRender) {
+      onRender(); // Trigger the callback when Container3 is mounted/rendered
+    }
+  }, [onRender]);
   return (
     <div className={styles.container}>
       <div className={styles.title}>
