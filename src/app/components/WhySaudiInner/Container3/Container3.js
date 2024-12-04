@@ -5,14 +5,33 @@ import { container3 } from "@/app/contents/Data";
 import Image from "next/image";
 import { useEffect } from "react";
 
-const Container3 = ({ onRender }) => {
-  const cardData = container3.cardData;
-  // Notify the parent component when Container3 is rendered
+const Container3 = ({ onScrollPast }) => {
+  
+  // Notify the parent component when Container3 is onScrollPast
   useEffect(() => {
-    if (onRender) {
-      onRender(); // Trigger the callback when Container3 is mounted/rendered
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          if (onScrollPast) {
+            onScrollPast(); // Trigger the callback when Container3 comes into view
+          }
+        }
+      },
+      { threshold: 0.1 } // Adjust this value based on when you want to trigger the callback
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
     }
-  }, [onRender]);
+
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current);
+      }
+    };
+  }, [onScrollPast]);
+
+  const cardData = container3.cardData;
   return (
     <div className={styles.container}>
       <div className={styles.title}>

@@ -24,8 +24,11 @@ const Page = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [hasPassedContainer3, setHasPassedContainer3] = useState(false);
 
-  const handleContainer3Render = useCallback(() => {
-    setHasPassedContainer3(true);
+  // const handleContainer3Render = useCallback(() => {
+  //   setHasPassedContainer3(true);
+  //   setShowPopup(true);
+  // }, []);
+  const handleScrollPastContainer3 = useCallback(() => {
     setShowPopup(true);
   }, []);
 
@@ -45,7 +48,7 @@ const Page = () => {
       <main className="flex-grow">
         <Hero /> {/* Hero is eagerly loaded */}
         <Container2 />
-        <Container3 onRender={handleContainer3Render} />
+        <Container3 onScrollPast={handleScrollPastContainer3} />
         <Container4 />
         <Container5 />
         <Clients whySaudi={true} />
