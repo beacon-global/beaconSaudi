@@ -3,15 +3,16 @@ import styles from "./container3.module.css";
 import { CardHeading, SectionDescription, SectionName, SectionTitle } from "../../ButtonComponent";
 import { container3 } from "@/app/contents/Data";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const Container3 = ({ onRender }) => {
   const cardData = container3.cardData;
   // Notify the parent component when Container3 is rendered
-  // useEffect(() => {
-  //   if (onRender) {
-  //     onRender(); // Trigger the callback when Container3 is mounted/rendered
-  //   }
-  // }, [onRender]);
+  useEffect(() => {
+    if (onRender) {
+      onRender(); // Trigger the callback when Container3 is mounted/rendered
+    }
+  }, [onRender]);
   return (
     <div className={styles.container}>
       <div className={styles.title}>
