@@ -53,18 +53,18 @@ const Page = () => {
 
 
   return (
-    <div>
-      {showPopup && <Popup setShowPopup={setShowPopup} />}
-      <div className={`${styles.whiteScreen} whiteScree`}>
-        <LoadingCircle />
-        <div className={styles.changeTextContainer}>
-          <h1 className={styles.spinnerText}>Your Global Advisory Partner For</h1>
-          <h1 className={styles.changeText}>
-            <span className={styles.spinnerText}> Business </span>{" "}
-            {textOptions[textIndex]}
-          </h1>
-        </div>
-      </div>
+    // <div>
+    //   {showPopup && <Popup setShowPopup={setShowPopup} />}
+    //   <div className={`${styles.whiteScreen} whiteScree`}>
+    //     <LoadingCircle />
+    //     <div className={styles.changeTextContainer}>
+    //       <h1 className={styles.spinnerText}>Your Global Advisory Partner For</h1>
+    //       <h1 className={styles.changeText}>
+    //         <span className={styles.spinnerText}> Business </span>{" "}
+    //         {textOptions[textIndex]}
+    //       </h1>
+    //     </div>
+    //   </div>
 
       <WhatsAppChat beaconSaudi="true" />
       <Header phoneNumber="+971 527 733 789" />
