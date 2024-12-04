@@ -3,10 +3,10 @@ import styles from "./container3.module.css";
 import { CardHeading, SectionDescription, SectionName, SectionTitle } from "../../ButtonComponent";
 import { container3 } from "@/app/contents/Data";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const Container3 = ({ onScrollPast }) => {
-  
+  const containerRef = useRef(null);
   // Notify the parent component when Container3 is onScrollPast
   useEffect(() => {
     const observer = new IntersectionObserver(
