@@ -16,17 +16,20 @@ const Container7 = dynamic(() => import("@/app/components/WhySaudiInner/Containe
 const Footer = dynamic(() => import("@/app/components/WhySaudiInner/Footer/Footer"), { ssr: false });
 const Header = dynamic(() => import("@/app/components/WhySaudiInner/Header/Header"), { ssr: false });
 const MobileHeader = dynamic(() => import("@/app/components/WhySaudiInner/MobileHeader/MobileHeader"), { ssr: false });
+import { useEffect } from "react";
 
 // Eagerly load Hero
 import Hero from "@/app/components/WhySaudiInner/Hero/Hero";
 
 const Page = () => {
   const [showPopup, setShowPopup] = useState(false);
-  const [hasPassedContainer3, setHasPassedContainer3] = useState(false);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true); // Show the popup after 15 seconds
+    }, 30000); // 30 seconds in milliseconds
 
-  const handleContainer3Render = useCallback(() => {
-    setHasPassedContainer3(true);
-    setShowPopup(true);
+    return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
 
   return (
@@ -45,7 +48,7 @@ const Page = () => {
       <main className="flex-grow">
         <Hero /> {/* Hero is eagerly loaded */}
         <Container2 />
-        <Container3 onRender={handleContainer3Render} />
+        <Container3 />
         <Container4 />
         <Container5 />
         <Clients whySaudi={true} />
