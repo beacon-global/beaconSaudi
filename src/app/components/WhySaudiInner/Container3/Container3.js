@@ -7,11 +7,11 @@ import Image from "next/image";
 const Container3 = ({ onRender }) => {
   const cardData = container3.cardData;
   // Notify the parent component when Container3 is rendered
-  useEffect(() => {
-    if (onRender) {
-      onRender(); // Trigger the callback when Container3 is mounted/rendered
-    }
-  }, [onRender]);
+  // useEffect(() => {
+  //   if (onRender) {
+  //     onRender(); // Trigger the callback when Container3 is mounted/rendered
+  //   }
+  // }, [onRender]);
   return (
     <div className={styles.container}>
       <div className={styles.title}>
