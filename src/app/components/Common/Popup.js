@@ -127,6 +127,7 @@ function Popup({ setShowPopup, heading, page }) {
             className="subButton"
             onClick={handleSubmit}
             data-gtm-click-element="form_submit"
+            id="popup-form"
             data-gtm-click-id="GTM-W2WWJ3TG"
           >
             {isLoading ? "Submitting..." : page === "ebook" ? "Download Ebook" : "Book Now"}
