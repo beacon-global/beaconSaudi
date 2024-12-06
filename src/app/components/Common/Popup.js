@@ -144,7 +144,9 @@ function Popup({ setShowPopup, heading, page }) {
               <option value="OMAN">OMAN</option>
             </select>
           </div> */}
-                    <div className="subButton" onClick={handleSubmit}>
+                    <div className="subButton" onClick={handleSubmit}
+                        data-gtm-click-element="form_submit"
+                        data-gtm-click-id="GTM-W2WWJ3TG">
                         {isLoading
                             ? "Downloading..."
                             : page === "ebook"
