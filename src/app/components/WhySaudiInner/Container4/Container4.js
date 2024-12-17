@@ -61,7 +61,8 @@ const Container4 = () => {
             </div>
           ))}
         </div>
-        <a href="../../pages/Contact">
+        {/* <a href="../../pages/Contact"> */}
+        <a href="tel:+971527733789">
           <div className={styles.btnMargin}>
             <BtnComponent
               buttonText={container4.btnText}

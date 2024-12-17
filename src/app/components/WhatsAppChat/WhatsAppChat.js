@@ -5,7 +5,6 @@ import styles from "./whatsappchat.module.css";
 
 const WhatsAppChat = ({ beaconSaudi }) => {
   const [isCardVisible, setIsCardVisible] = useState(false);
-
   const offices1 = [
     {
       img: "/office.png",
@@ -40,19 +39,34 @@ const WhatsAppChat = ({ beaconSaudi }) => {
       number: "+971527733789",
       location: "Dubai",
     },
-  ]
+  ];
 
   // const offices = beaconSaudi ? beaconSaudiPage : offices1;
   const offices = beaconSaudiPage;
 
   const handleChatIconClick = () => {
-    setIsCardVisible(!isCardVisible);
+    if (isWhySaudiPage) {
+      // Directly open WhatsApp chat when on the WhySaudi page
+      window.open(`https://wa.me/+971527733789`, "_blank");
+    } else {
+      setIsCardVisible(!isCardVisible);
+    }
   };
 
   const handleOfficeClick = (number) => {
     window.open(`https://wa.me/${number}`, "_blank");
     setIsCardVisible(false);
   };
+
+  // Function for directly initiating WhatsApp chat
+  const handleDirectChat = () => {
+    window.open(`https://wa.me/+971527733789`, "_blank");
+  };
+
+  // Check if we are on the /pages/WhySaudi path
+  const isWhySaudiPage =
+    typeof window !== "undefined" &&
+    window.location.pathname === "/pages/WhySaudi/";
 
   return (
     <>
@@ -61,29 +75,27 @@ const WhatsAppChat = ({ beaconSaudi }) => {
         onClick={handleChatIconClick}
       >
         <div className={styles.imgContainer}>
-          {
-            isCardVisible ? (
-              <Image
-                src="/close.svg"
-                width={70}
-                height={70}
-                alt="ImageService"
-                quality={100}
-                priority={true}
-                unoptimized
-              />
-            ) : (
-              <Image
-                src="/whatsapp.svg"
-                width={70}
-                height={70}
-                alt="ImageService"
-                quality={100}
-                priority={true}
-                unoptimized
-              />
-            )
-          }
+          {isCardVisible ? (
+            <Image
+              src="/close.svg"
+              width={70}
+              height={70}
+              alt="ImageService"
+              quality={100}
+              priority={true}
+              unoptimized
+            />
+          ) : (
+            <Image
+              src="/whatsapp.svg"
+              width={70}
+              height={70}
+              alt="ImageService"
+              quality={100}
+              priority={true}
+              unoptimized
+            />
+          )}
         </div>
       </div>
       <div

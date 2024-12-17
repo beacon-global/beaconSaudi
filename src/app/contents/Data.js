@@ -64,7 +64,7 @@ const container4 = {
   sectionTitle: "Key Factors To Start A Business In Saudi Arabia",
   smImg: "/Container4/2.webp",
   img: "/Container4/1crop.webp",
-  btnText: "Get in Touch",
+  btnText: "Call Us",
   description:
     "The Kingdom of Saudi Arabia is attracting entrepreneurs and investors with its new visa programs, thriving market, and strategic location.",
   descriptions: [

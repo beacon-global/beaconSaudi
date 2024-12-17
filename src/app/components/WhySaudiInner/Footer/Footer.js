@@ -61,22 +61,29 @@ function Footer({ contactNumber, email, address }) {
               </a>
             </div>
           </div>
+
           <div className={styles.footerContactDetails}>
-            <Image
-              quality={100}
-              priority={true}
-              unoptimized
-              src="/Footer/hh/Icon.svg"
-              width={46}
-              height={46}
-              alt="ImageFooter2"
-            />
+            <a href="tel:+971527733789">
+              <Image
+                quality={100}
+                priority={true}
+                unoptimized
+                src="/Footer/hh/Icon.svg"
+                width={46}
+                height={46}
+                alt="ImageFooter2"
+              />
+            </a>
             <div
               className={styles.footerContactTextDetails}
               style={{ whiteSpace: "nowrap" }}
             >
               <p>Call us on:</p>
-              <a href={`tel:${contactNumber ? contactNumber : "+971 527 733 789"}`}>
+              <a
+                href={`tel:${
+                  contactNumber ? contactNumber : "+971 527 733 789"
+                }`}
+              >
                 <p>{contactNumber ? contactNumber : "+971 527 733 789"}</p>
               </a>
             </div>
@@ -95,10 +102,12 @@ function Footer({ contactNumber, email, address }) {
               <div className={styles.footerContactTextDetails}>
                 <p>Head Office:</p>
                 <p className={styles.dAddress}>
-                  {address || "Le Cygne Commercial Center, Kaab Building, Port Saeed Deira, Dubai, UAE"}
+                  {address ||
+                    "Le Cygne Commercial Center, Kaab Building, Port Saeed Deira, Dubai, UAE"}
                 </p>
                 <p className={styles.mAddress}>
-                  {address || "Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya, Riyadh 12611"}
+                  {address ||
+                    "Le Cygne Commercial Center, Kaab Bin Malik Street, Al Olaya, Riyadh 12611"}
                 </p>
               </div>
             </a>
@@ -163,9 +172,9 @@ function Footer({ contactNumber, email, address }) {
         <p className={styles.footerCopyRight}>
           © 2024 by Beacon Management Consultants CO.LTD | All Right Reserved |
           Powered by{" "}
-          <a href="https://procube.cx/" className={styles.footerLink}>
+          {/* <a href="https://procube.cx/" className={styles.footerLink}> */}
             procube.cx
-          </a>
+          {/* </a> */}
         </p>
       </div>
     </div>

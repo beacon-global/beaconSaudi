@@ -7,7 +7,7 @@ const Banner = dynamic(() => import("@/app/components/Banner"), { ssr: false });
 const Clients = dynamic(() => import("@/app/components/ClientsContainer/Clients"), { ssr: false });
 const Popup = dynamic(() => import("@/app/components/Common/Popup"), { ssr: false });
 const WhatsAppChat = dynamic(() => import("@/app/components/WhatsAppChat/WhatsAppChat"), { ssr: false });
-const ContactBanner = dynamic(() => import("@/app/components/WhySaudiInner/ContactBanner/ContactBanner"), { ssr: false });
+// const ContactBanner = dynamic(() => import("@/app/components/WhySaudiInner/ContactBanner/ContactBanner"), { ssr: false });
 const Container2 = dynamic(() => import("@/app/components/WhySaudiInner/Container2/Container2"), { ssr: false });
 const Container3 = dynamic(() => import("@/app/components/WhySaudiInner/Container3/Container3"), { ssr: false });
 const Container4 = dynamic(() => import("@/app/components/WhySaudiInner/Container4/Container4"), { ssr: false });
@@ -20,17 +20,18 @@ import { useEffect } from "react";
 
 // Eagerly load Hero
 import Hero from "@/app/components/WhySaudiInner/Hero/Hero";
+import Contact from './components/ContactComponent';
 
 const Page = () => {
   const [showPopup, setShowPopup] = useState(false);
   
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(true); // Show the popup after 15 seconds
-    }, 7000); // 30 seconds in milliseconds
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowPopup(true); // Show the popup after 15 seconds
+  //   }, 7000); // 30 seconds in milliseconds
 
-    return () => clearTimeout(timer); // Cleanup the timer on unmount
-  }, []);
+  //   return () => clearTimeout(timer); // Cleanup the timer on unmount
+  // }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -54,7 +55,8 @@ const Page = () => {
         <Clients whySaudi={true} />
         <Banner />
         <Container7 />
-        <ContactBanner />
+        <Contact/>
+        {/* <ContactBanner /> */}
       </main>
 
       {/* Footer */}

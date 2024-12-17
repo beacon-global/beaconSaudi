@@ -24,10 +24,11 @@ const Hero = () => {
           margin="1.3227513227513228vw 0vw 0 0vw"
           color="rgba(255,255,255,0.8)"
         />
-        <a href="/pages/Contact/">
+        {/* <a href="/pages/Contact/"> */}
+        <a href="tel:+971527733789">
           <div className={`${styles.btnMargin} whySaudiBtnContainer`}>
             <BtnComponent
-              buttonText="Book a Call"
+              buttonText="Call Us"
               bg="#11215B"
               arrow={true}
               color="#ffffff"
