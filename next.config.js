@@ -3,7 +3,7 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true, 
     output: "export",
-    images: { unoptimized: true },
+    images: { unoptimized: false },
     trailingSlash: true,
     webpack(config) {
       // Optimize chunking

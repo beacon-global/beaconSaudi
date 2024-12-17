@@ -20,7 +20,7 @@ import { useEffect } from "react";
 
 // Eagerly load Hero
 import Hero from "@/app/components/WhySaudiInner/Hero/Hero";
-import Contact from './components/ContactComponent';
+const Contact = dynamic(() => import('./components/ContactComponent'), { ssr: false });
 
 const Page = () => {
   const [showPopup, setShowPopup] = useState(false);

@@ -3,6 +3,10 @@ import styles from "./footer.module.css";
 import React from "react";
 
 function Footer({ contactNumber, email, address }) {
+  // Check if we are on the /pages/WhySaudi path
+  const isWhySaudiPage =
+    typeof window !== "undefined" &&
+    window.location.pathname === "/pages/WhySaudi/";
   return (
     <div className={styles.footerContainer}>
       <div className={styles.topContainer}>
@@ -17,25 +21,27 @@ function Footer({ contactNumber, email, address }) {
             alt="ImageFooter1"
           />
         </div>
-        <div className={styles.footerContentContainer}>
-          <ul className={styles.footercontent}>
-            <a href="/">
-              <p>Home</p>
-            </a>
-            <a href="/pages/About">
-              <p>About Us</p>
-            </a>
-            <a href="/pages/Services">
-              <p>Services</p>
-            </a>
-            <a href="https://beaconarabia.com/pages/blog/">
-              <p>Blogs</p>
-            </a>
-            <a href="/pages/Contact">
-              <p>Contact</p>
-            </a>
-          </ul>
-        </div>
+        {!isWhySaudiPage && (
+          <div className={styles.footerContentContainer}>
+            <ul className={styles.footercontent}>
+              <a href="/">
+                <p>Home</p>
+              </a>
+              <a href="/pages/About">
+                <p>About Us</p>
+              </a>
+              <a href="/pages/Services">
+                <p>Services</p>
+              </a>
+              <a href="https://beaconarabia.com/pages/blog/">
+                <p>Blogs</p>
+              </a>
+              <a href="/pages/Contact">
+                <p>Contact</p>
+              </a>
+            </ul>
+          </div>
+        )}
       </div>
       <div className={styles.bottomContainer}>
         <div className={styles.footerContactImgContainer}>
@@ -173,7 +179,7 @@ function Footer({ contactNumber, email, address }) {
           © 2024 by Beacon Management Consultants CO.LTD | All Right Reserved |
           Powered by{" "}
           {/* <a href="https://procube.cx/" className={styles.footerLink}> */}
-            procube.cx
+          procube.cx
           {/* </a> */}
         </p>
       </div>
