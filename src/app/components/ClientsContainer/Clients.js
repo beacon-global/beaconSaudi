@@ -148,23 +148,49 @@ function Clients({ whySaudi }) {
 
     const addAnimation = () => {
       scrollers.forEach((scroller) => {
+        // Force a reflow to ensure proper animation initialization
+        scroller.style.display = 'none';
+        scroller.offsetHeight; // Trigger reflow
+        scroller.style.display = '';
+        
         scroller.setAttribute('data-animated', true);
-
+    
         const scrollerInner = scroller.querySelector('.scroller__inner');
         const scrollerContent = Array.from(scrollerInner.children);
+        
+        // Clear existing cloned elements to prevent duplicates
+        const existingClones = scrollerInner.querySelectorAll('[aria-hidden="true"]');
+        existingClones.forEach(clone => clone.remove());
+        
+        // Add new clones - ensure we have enough content for smooth scrolling
         scrollerContent.forEach((item) => {
           const duplicatedItem = item.cloneNode(true);
           duplicatedItem.setAttribute('aria-hidden', true);
           scrollerInner.appendChild(duplicatedItem);
         });
+        
+        // Apply Safari-specific optimizations
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if (isSafari) {
+          scrollerInner.style.webkitBackfaceVisibility = 'hidden';
+          scrollerInner.style.backfaceVisibility = 'hidden';
+          scrollerInner.style.webkitTransform = 'translateZ(0)';
+          scrollerInner.style.transform = 'translateZ(0)';
+        }
       });
     };
 
+    // Check if the browser supports smooth animations
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      addAnimation();
+      // Add a small delay to ensure proper initialization
+      setTimeout(addAnimation, 100);
     }
 
     return () => {
+      // Cleanup animation when component unmounts
+      scrollers.forEach(scroller => {
+        scroller.removeAttribute('data-animated');
+      });
     };
   }, []);
 
