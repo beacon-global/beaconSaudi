@@ -321,8 +321,11 @@ function Contact() {
         </div>
 
         <div className={styles.footerContainer}>
-          <Footer contactNumber="+971 527 733 789" email="mail@beaconarabia.com"
-            address="Office #39, 7th Floor,Dubai National Insurance Building, Port Saeed Deira, Dubai, UAE" />
+          <Footer 
+                contactNumber="+971 527 733 789"
+                email="mail@beaconarabia.com"
+                address="Office 10, 341A, 3rd floor, office tower, Al Ghurrair center, Al Rigga Road, Dubai, United Arab Emirates"
+              />
         </div>
       </div>
     </>

@@ -60,11 +60,11 @@ const Page = () => {
       </main>
 
       {/* Footer */}
-      <Footer
-        contactNumber="+971 527 733 789"
-        email="mail@beaconarabia.com"
-        address="Office 10, 341A, 3rd floor, office tower, Al Ghurrair center, Al Rigga Road, Dubai, United Arab Emirates"
-      />
+      <Footer 
+            contactNumber="+971 527 733 789"
+            email="mail@beaconarabia.com"
+            address="Office 10, 341A, 3rd floor, office tower, Al Ghurrair center, Al Rigga Road, Dubai, United Arab Emirates"
+          />
     </div>
   );
 };
