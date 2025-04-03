@@ -526,6 +526,11 @@ option {
   gap: 30px;
   padding: 10px 0;
   width: max-content;
+  /* Add these properties for better iOS compatibility */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .scroller[data-animated="true"] .scroller__inner {
@@ -533,6 +538,10 @@ option {
   flex-wrap: nowrap;
   animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
   -webkit-animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+  /* Add these properties for better iOS compatibility */
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .scroller[data-direction="right"] {
@@ -549,20 +558,26 @@ option {
   object-fit: contain;
   flex-shrink: 0;
   will-change: transform;
+  /* Add these properties for better iOS compatibility */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes scroll {
   to {
-    transform: translate3d(calc(-50% - 0.5rem), 0, 0);
+    /* Simplify transform for better compatibility */
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 @-webkit-keyframes scroll {
   to {
-    -webkit-transform: translate3d(calc(-50% - 0.5rem), 0, 0);
+    /* Simplify transform for better compatibility */
+    -webkit-transform: translate3d(-50%, 0, 0);
   }
 }
 
+/* Remove the duplicate keyframes at the bottom of the file */
 @media (max-width: 767px) {
   .logoClients {
     height: 40px;
